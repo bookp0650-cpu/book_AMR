@@ -19,3 +19,8 @@ __pycache__/
 *.deb
 *.bag
 *.deb
+# 不要ファイル
+*.gv
+*.pdf
+ttyUSB*
+.vscode/
