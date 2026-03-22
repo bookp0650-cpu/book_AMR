@@ -1,0 +1,28 @@
+[0.451s] Invoking command in '/home/rover/ros2_ws/src/udp_bridge': PYTHONPATH=/home/rover/ros2_ws/build/udp_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/ros2_ws/install/udp_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/udp_bridge build --build-base /home/rover/ros2_ws/build/udp_bridge/build install --record /home/rover/ros2_ws/build/udp_bridge/install.log --single-version-externally-managed install_data
+[0.599s] running egg_info
+[0.599s] writing ../../build/udp_bridge/udp_bridge.egg-info/PKG-INFO
+[0.602s] writing dependency_links to ../../build/udp_bridge/udp_bridge.egg-info/dependency_links.txt
+[0.602s] writing entry points to ../../build/udp_bridge/udp_bridge.egg-info/entry_points.txt
+[0.602s] writing requirements to ../../build/udp_bridge/udp_bridge.egg-info/requires.txt
+[0.602s] writing top-level names to ../../build/udp_bridge/udp_bridge.egg-info/top_level.txt
+[0.603s] reading manifest file '../../build/udp_bridge/udp_bridge.egg-info/SOURCES.txt'
+[0.604s] writing manifest file '../../build/udp_bridge/udp_bridge.egg-info/SOURCES.txt'
+[0.604s] running build
+[0.604s] running build_py
+[0.604s] copying udp_bridge/navigation_goal_sender.py -> /home/rover/ros2_ws/build/udp_bridge/build/lib/udp_bridge
+[0.604s] copying udp_bridge/shelf_id_receiver.py -> /home/rover/ros2_ws/build/udp_bridge/build/lib/udp_bridge
+[0.604s] running install
+[0.605s] running install_lib
+[0.605s] copying /home/rover/ros2_ws/build/udp_bridge/build/lib/udp_bridge/navigation_goal_sender.py -> /home/rover/ros2_ws/install/udp_bridge/lib/python3.10/site-packages/udp_bridge
+[0.605s] copying /home/rover/ros2_ws/build/udp_bridge/build/lib/udp_bridge/shelf_id_receiver.py -> /home/rover/ros2_ws/install/udp_bridge/lib/python3.10/site-packages/udp_bridge
+[0.606s] byte-compiling /home/rover/ros2_ws/install/udp_bridge/lib/python3.10/site-packages/udp_bridge/navigation_goal_sender.py to navigation_goal_sender.cpython-310.pyc
+[0.606s] byte-compiling /home/rover/ros2_ws/install/udp_bridge/lib/python3.10/site-packages/udp_bridge/shelf_id_receiver.py to shelf_id_receiver.cpython-310.pyc
+[0.606s] running install_data
+[0.606s] running install_egg_info
+[0.607s] removing '/home/rover/ros2_ws/install/udp_bridge/lib/python3.10/site-packages/udp_bridge-0.0.0-py3.10.egg-info' (and everything under it)
+[0.608s] Copying ../../build/udp_bridge/udp_bridge.egg-info to /home/rover/ros2_ws/install/udp_bridge/lib/python3.10/site-packages/udp_bridge-0.0.0-py3.10.egg-info
+[0.608s] running install_scripts
+[0.620s] Installing navigation_goal_sender script to /home/rover/ros2_ws/install/udp_bridge/lib/udp_bridge
+[0.621s] Installing shelf_id_receiver script to /home/rover/ros2_ws/install/udp_bridge/lib/udp_bridge
+[0.621s] writing list of installed files to '/home/rover/ros2_ws/build/udp_bridge/install.log'
+[0.639s] Invoked command in '/home/rover/ros2_ws/src/udp_bridge' returned '0': PYTHONPATH=/home/rover/ros2_ws/build/udp_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/ros2_ws/install/udp_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/udp_bridge build --build-base /home/rover/ros2_ws/build/udp_bridge/build install --record /home/rover/ros2_ws/build/udp_bridge/install.log --single-version-externally-managed install_data

@@ -1,0 +1,42 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rover/ros2_ws/build/megarover_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/launch/f120a_view.launch.py
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/launch/mega3_view.launch.py
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/meshes/f120a/base_link.stl
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/meshes/f120a/left_wheel_1.stl
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/meshes/f120a/right_wheel_1.stl
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/meshes/mega3/base_link.stl
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/meshes/mega3/left_wheel_1.stl
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/meshes/mega3/right_wheel_1.stl
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/rviz/f120a.rviz
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/rviz/mega3.rviz
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/urdf/f120a.gazebo
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/urdf/f120a.xacro
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/urdf/f120a_base_model.gazebo
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/urdf/f120a_base_model.xacro
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/urdf/materials.xacro
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/urdf/mega3.gazebo
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/urdf/mega3.xacro
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/urdf/mega3_base_model.gazebo
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/urdf/mega3_base_model.xacro
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/ament_index/resource_index/package_run_dependencies/megarover_description
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/ament_index/resource_index/parent_prefix_path/megarover_description
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/environment/path.sh
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/environment/path.dsv
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/local_setup.bash
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/local_setup.sh
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/local_setup.zsh
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/local_setup.dsv
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/package.dsv
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/ament_index/resource_index/packages/megarover_description
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/cmake/megarover_descriptionConfig.cmake
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/cmake/megarover_descriptionConfig-version.cmake
+-- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/package.xml

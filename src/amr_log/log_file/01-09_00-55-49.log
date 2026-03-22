@@ -1,0 +1,4196 @@
+[SESSION START]
+start_time : 2026-01-09 00:55:49.550220
+==============================================
+
+[SESSION START]
+shelf_id : 2-3-1-1
+start_time : 2026-01-09 00:55:56.726
+==================================================
+[CMD_VEL]
+  linear.x  : -0.150
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:56.764
+time_now : 2026-01-09 00:55:56.764
+
+cmd_vel:
+  linear.x  : -0.150 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.873 m
+  y   : 5.654 m
+  yaw : -3.233 degree
+==================================================
+[CMD_VEL]
+  linear.x  : -0.150
+  angular.z : 0.016
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:56.814
+time_now : 2026-01-09 00:55:56.814
+
+cmd_vel:
+  linear.x  : -0.150 m/s
+  angular.z : 0.016 rad/s
+
+pose (map -> base_link):
+  x   : 3.873 m
+  y   : 5.654 m
+  yaw : -3.232 degree
+==================================================
+[CMD_VEL]
+  linear.x  : -0.150
+  angular.z : 0.047
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:56.864
+time_now : 2026-01-09 00:55:56.864
+
+cmd_vel:
+  linear.x  : -0.150 m/s
+  angular.z : 0.047 rad/s
+
+pose (map -> base_link):
+  x   : 3.861 m
+  y   : 5.655 m
+  yaw : -3.123 degree
+==================================================
+[CMD_VEL]
+  linear.x  : -0.150
+  angular.z : 0.047
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:56.914
+time_now : 2026-01-09 00:55:56.914
+
+cmd_vel:
+  linear.x  : -0.150 m/s
+  angular.z : 0.047 rad/s
+
+pose (map -> base_link):
+  x   : 3.861 m
+  y   : 5.655 m
+  yaw : -3.122 degree
+==================================================
+[CMD_VEL]
+  linear.x  : -0.150
+  angular.z : 0.047
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:56.964
+time_now : 2026-01-09 00:55:56.964
+
+cmd_vel:
+  linear.x  : -0.150 m/s
+  angular.z : 0.047 rad/s
+
+pose (map -> base_link):
+  x   : 3.849 m
+  y   : 5.655 m
+  yaw : -3.013 degree
+==================================================
+[CMD_VEL]
+  linear.x  : -0.150
+  angular.z : 0.047
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:57.014
+time_now : 2026-01-09 00:55:57.014
+
+cmd_vel:
+  linear.x  : -0.150 m/s
+  angular.z : 0.047 rad/s
+
+pose (map -> base_link):
+  x   : 3.849 m
+  y   : 5.655 m
+  yaw : -3.013 degree
+==================================================
+[CMD_VEL]
+  linear.x  : -0.150
+  angular.z : -0.113
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:57.064
+time_now : 2026-01-09 00:55:57.064
+
+cmd_vel:
+  linear.x  : -0.150 m/s
+  angular.z : -0.113 rad/s
+
+pose (map -> base_link):
+  x   : 3.834 m
+  y   : 5.656 m
+  yaw : -2.885 degree
+==================================================
+[CMD_VEL]
+  linear.x  : -0.150
+  angular.z : -0.016
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:57.114
+time_now : 2026-01-09 00:55:57.114
+
+cmd_vel:
+  linear.x  : -0.150 m/s
+  angular.z : -0.016 rad/s
+
+pose (map -> base_link):
+  x   : 3.834 m
+  y   : 5.656 m
+  yaw : -2.885 degree
+==================================================
+[CMD_VEL]
+  linear.x  : -0.150
+  angular.z : -0.142
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:57.164
+time_now : 2026-01-09 00:55:57.164
+
+cmd_vel:
+  linear.x  : -0.150 m/s
+  angular.z : -0.142 rad/s
+
+pose (map -> base_link):
+  x   : 3.821 m
+  y   : 5.656 m
+  yaw : -2.848 degree
+==================================================
+[CMD_VEL]
+  linear.x  : -0.150
+  angular.z : -0.174
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:57.214
+time_now : 2026-01-09 00:55:57.214
+
+cmd_vel:
+  linear.x  : -0.150 m/s
+  angular.z : -0.174 rad/s
+
+pose (map -> base_link):
+  x   : 3.821 m
+  y   : 5.656 m
+  yaw : -2.848 degree
+==================================================
+[CMD_VEL]
+  linear.x  : -0.150
+  angular.z : -0.174
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:57.264
+time_now : 2026-01-09 00:55:57.264
+
+cmd_vel:
+  linear.x  : -0.150 m/s
+  angular.z : -0.174 rad/s
+
+pose (map -> base_link):
+  x   : 3.809 m
+  y   : 5.657 m
+  yaw : -2.830 degree
+==================================================
+[CMD_VEL]
+  linear.x  : -0.150
+  angular.z : -0.174
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:57.314
+time_now : 2026-01-09 00:55:57.314
+
+cmd_vel:
+  linear.x  : -0.150 m/s
+  angular.z : -0.174 rad/s
+
+pose (map -> base_link):
+  x   : 3.809 m
+  y   : 5.657 m
+  yaw : -2.830 degree
+==================================================
+[CMD_VEL]
+  linear.x  : -0.150
+  angular.z : -0.142
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:57.364
+time_now : 2026-01-09 00:55:57.364
+
+cmd_vel:
+  linear.x  : -0.150 m/s
+  angular.z : -0.142 rad/s
+
+pose (map -> base_link):
+  x   : 3.792 m
+  y   : 5.658 m
+  yaw : -2.849 degree
+==================================================
+[CMD_VEL]
+  linear.x  : -0.025
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:57.414
+time_now : 2026-01-09 00:55:57.414
+
+cmd_vel:
+  linear.x  : -0.025 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.792 m
+  y   : 5.658 m
+  yaw : -2.849 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:57.464
+time_now : 2026-01-09 00:55:57.464
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.780 m
+  y   : 5.659 m
+  yaw : -3.049 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:57.514
+time_now : 2026-01-09 00:55:57.514
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.780 m
+  y   : 5.659 m
+  yaw : -3.049 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:57.564
+time_now : 2026-01-09 00:55:57.564
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.764 m
+  y   : 5.661 m
+  yaw : -3.503 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:57.614
+time_now : 2026-01-09 00:55:57.614
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.764 m
+  y   : 5.661 m
+  yaw : -3.505 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:57.664
+time_now : 2026-01-09 00:55:57.664
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.754 m
+  y   : 5.662 m
+  yaw : -3.814 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:57.714
+time_now : 2026-01-09 00:55:57.714
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.754 m
+  y   : 5.662 m
+  yaw : -3.814 degree
+==================================================
+
+[SESSION START]
+shelf_id : 2-3-1-1
+start_time : 2026-01-09 00:55:57.726
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:57.764
+time_now : 2026-01-09 00:55:57.764
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.748 m
+  y   : 5.662 m
+  yaw : -3.921 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:57.814
+time_now : 2026-01-09 00:55:57.814
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.748 m
+  y   : 5.662 m
+  yaw : -3.921 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:57.864
+time_now : 2026-01-09 00:55:57.864
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.747 m
+  y   : 5.663 m
+  yaw : -3.940 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:57.914
+time_now : 2026-01-09 00:55:57.914
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.747 m
+  y   : 5.663 m
+  yaw : -3.940 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:57.964
+time_now : 2026-01-09 00:55:57.964
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.746 m
+  y   : 5.662 m
+  yaw : -3.921 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:58.014
+time_now : 2026-01-09 00:55:58.014
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.746 m
+  y   : 5.662 m
+  yaw : -3.921 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:58.064
+time_now : 2026-01-09 00:55:58.064
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.748 m
+  y   : 5.662 m
+  yaw : -3.958 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:58.114
+time_now : 2026-01-09 00:55:58.114
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.748 m
+  y   : 5.662 m
+  yaw : -3.958 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:58.164
+time_now : 2026-01-09 00:55:58.164
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.748 m
+  y   : 5.662 m
+  yaw : -3.976 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:58.214
+time_now : 2026-01-09 00:55:58.214
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.748 m
+  y   : 5.662 m
+  yaw : -3.976 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:58.264
+time_now : 2026-01-09 00:55:58.264
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.748 m
+  y   : 5.662 m
+  yaw : -3.921 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:58.314
+time_now : 2026-01-09 00:55:58.314
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.748 m
+  y   : 5.662 m
+  yaw : -3.921 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:58.364
+time_now : 2026-01-09 00:55:58.364
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.749 m
+  y   : 5.662 m
+  yaw : -3.847 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:58.414
+time_now : 2026-01-09 00:55:58.414
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.749 m
+  y   : 5.662 m
+  yaw : -3.847 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:58.464
+time_now : 2026-01-09 00:55:58.464
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.749 m
+  y   : 5.662 m
+  yaw : -3.810 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:58.514
+time_now : 2026-01-09 00:55:58.514
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.828 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:58.564
+time_now : 2026-01-09 00:55:58.564
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.828 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:58.615
+time_now : 2026-01-09 00:55:58.615
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.828 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:58.665
+time_now : 2026-01-09 00:55:58.665
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.846 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:58.714
+time_now : 2026-01-09 00:55:58.714
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.846 degree
+==================================================
+
+[SESSION START]
+shelf_id : 2-3-1-1
+start_time : 2026-01-09 00:55:58.726
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:58.764
+time_now : 2026-01-09 00:55:58.764
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.846 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:58.814
+time_now : 2026-01-09 00:55:58.814
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.846 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:58.864
+time_now : 2026-01-09 00:55:58.864
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.809 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:58.914
+time_now : 2026-01-09 00:55:58.914
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.809 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:58.964
+time_now : 2026-01-09 00:55:58.964
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.828 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:59.014
+time_now : 2026-01-09 00:55:59.014
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.828 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:59.064
+time_now : 2026-01-09 00:55:59.064
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.828 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:59.114
+time_now : 2026-01-09 00:55:59.114
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.828 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:59.164
+time_now : 2026-01-09 00:55:59.164
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:59.214
+time_now : 2026-01-09 00:55:59.214
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.828 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:59.264
+time_now : 2026-01-09 00:55:59.264
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.828 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:59.314
+time_now : 2026-01-09 00:55:59.314
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.828 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:59.364
+time_now : 2026-01-09 00:55:59.364
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.828 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:59.414
+time_now : 2026-01-09 00:55:59.414
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.828 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:59.464
+time_now : 2026-01-09 00:55:59.464
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.828 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:59.514
+time_now : 2026-01-09 00:55:59.514
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.828 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:59.564
+time_now : 2026-01-09 00:55:59.564
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.828 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:59.614
+time_now : 2026-01-09 00:55:59.614
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.828 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:59.664
+time_now : 2026-01-09 00:55:59.664
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:59.714
+time_now : 2026-01-09 00:55:59.714
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+
+[SESSION START]
+shelf_id : 2-3-1-1
+start_time : 2026-01-09 00:55:59.726
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:59.764
+time_now : 2026-01-09 00:55:59.764
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:59.814
+time_now : 2026-01-09 00:55:59.814
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:59.864
+time_now : 2026-01-09 00:55:59.864
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:59.914
+time_now : 2026-01-09 00:55:59.914
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:55:59.964
+time_now : 2026-01-09 00:55:59.964
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:00.014
+time_now : 2026-01-09 00:56:00.014
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:00.064
+time_now : 2026-01-09 00:56:00.064
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:00.114
+time_now : 2026-01-09 00:56:00.114
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:00.164
+time_now : 2026-01-09 00:56:00.164
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:00.214
+time_now : 2026-01-09 00:56:00.214
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:00.264
+time_now : 2026-01-09 00:56:00.264
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:00.314
+time_now : 2026-01-09 00:56:00.314
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:00.364
+time_now : 2026-01-09 00:56:00.364
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:00.414
+time_now : 2026-01-09 00:56:00.414
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:00.464
+time_now : 2026-01-09 00:56:00.464
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:00.514
+time_now : 2026-01-09 00:56:00.514
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:00.564
+time_now : 2026-01-09 00:56:00.564
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:00.614
+time_now : 2026-01-09 00:56:00.614
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:00.664
+time_now : 2026-01-09 00:56:00.664
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-3-1-1
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:00.714
+time_now : 2026-01-09 00:56:00.714
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.750 m
+  y   : 5.662 m
+  yaw : -3.827 degree
+==================================================
+[SESSION END]
+end_time : 2026-01-09 00:56:05.767
+==================================================
+
+
+[SESSION START]
+shelf_id : 2-5-1-2
+start_time : 2026-01-09 00:56:38.563
+==================================================
+[CMD_VEL]
+  linear.x  : 0.125
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:38.614
+time_now : 2026-01-09 00:56:38.614
+
+cmd_vel:
+  linear.x  : 0.125 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.751 m
+  y   : 5.662 m
+  yaw : -3.808 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.150
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:38.664
+time_now : 2026-01-09 00:56:38.664
+
+cmd_vel:
+  linear.x  : 0.150 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.751 m
+  y   : 5.662 m
+  yaw : -3.808 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.150
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:38.714
+time_now : 2026-01-09 00:56:38.714
+
+cmd_vel:
+  linear.x  : 0.150 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.751 m
+  y   : 5.662 m
+  yaw : -3.808 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.150
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:38.764
+time_now : 2026-01-09 00:56:38.764
+
+cmd_vel:
+  linear.x  : 0.150 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.751 m
+  y   : 5.662 m
+  yaw : -3.808 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.150
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:38.814
+time_now : 2026-01-09 00:56:38.814
+
+cmd_vel:
+  linear.x  : 0.150 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.751 m
+  y   : 5.662 m
+  yaw : -3.808 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.150
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:38.864
+time_now : 2026-01-09 00:56:38.864
+
+cmd_vel:
+  linear.x  : 0.150 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.751 m
+  y   : 5.662 m
+  yaw : -3.808 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.150
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:38.914
+time_now : 2026-01-09 00:56:38.914
+
+cmd_vel:
+  linear.x  : 0.150 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.751 m
+  y   : 5.662 m
+  yaw : -3.808 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.150
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:38.964
+time_now : 2026-01-09 00:56:38.964
+
+cmd_vel:
+  linear.x  : 0.150 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.751 m
+  y   : 5.662 m
+  yaw : -3.808 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.150
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:39.014
+time_now : 2026-01-09 00:56:39.014
+
+cmd_vel:
+  linear.x  : 0.150 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.751 m
+  y   : 5.662 m
+  yaw : -3.808 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.150
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:39.064
+time_now : 2026-01-09 00:56:39.064
+
+cmd_vel:
+  linear.x  : 0.150 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.751 m
+  y   : 5.662 m
+  yaw : -3.808 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.150
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:39.114
+time_now : 2026-01-09 00:56:39.114
+
+cmd_vel:
+  linear.x  : 0.150 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.753 m
+  y   : 5.662 m
+  yaw : -3.790 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.150
+  angular.z : 0.016
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:39.164
+time_now : 2026-01-09 00:56:39.164
+
+cmd_vel:
+  linear.x  : 0.150 m/s
+  angular.z : 0.016 rad/s
+
+pose (map -> base_link):
+  x   : 3.758 m
+  y   : 5.661 m
+  yaw : -3.678 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.150
+  angular.z : 0.016
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:39.214
+time_now : 2026-01-09 00:56:39.214
+
+cmd_vel:
+  linear.x  : 0.150 m/s
+  angular.z : 0.016 rad/s
+
+pose (map -> base_link):
+  x   : 3.759 m
+  y   : 5.661 m
+  yaw : -3.678 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.134
+  angular.z : 0.047
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:39.264
+time_now : 2026-01-09 00:56:39.264
+
+cmd_vel:
+  linear.x  : 0.134 m/s
+  angular.z : 0.047 rad/s
+
+pose (map -> base_link):
+  x   : 3.759 m
+  y   : 5.661 m
+  yaw : -3.678 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.134
+  angular.z : -0.016
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:39.314
+time_now : 2026-01-09 00:56:39.314
+
+cmd_vel:
+  linear.x  : 0.134 m/s
+  angular.z : -0.016 rad/s
+
+pose (map -> base_link):
+  x   : 3.769 m
+  y   : 5.660 m
+  yaw : -3.566 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.134
+  angular.z : -0.016
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:39.364
+time_now : 2026-01-09 00:56:39.364
+
+cmd_vel:
+  linear.x  : 0.134 m/s
+  angular.z : -0.016 rad/s
+
+pose (map -> base_link):
+  x   : 3.779 m
+  y   : 5.659 m
+  yaw : -3.381 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.134
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:39.414
+time_now : 2026-01-09 00:56:39.414
+
+cmd_vel:
+  linear.x  : 0.134 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.779 m
+  y   : 5.659 m
+  yaw : -3.380 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.150
+  angular.z : 0.047
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:39.464
+time_now : 2026-01-09 00:56:39.464
+
+cmd_vel:
+  linear.x  : 0.150 m/s
+  angular.z : 0.047 rad/s
+
+pose (map -> base_link):
+  x   : 3.791 m
+  y   : 5.658 m
+  yaw : -3.251 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.150
+  angular.z : 0.047
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:39.514
+time_now : 2026-01-09 00:56:39.514
+
+cmd_vel:
+  linear.x  : 0.150 m/s
+  angular.z : 0.047 rad/s
+
+pose (map -> base_link):
+  x   : 3.791 m
+  y   : 5.658 m
+  yaw : -3.251 degree
+==================================================
+
+[SESSION START]
+shelf_id : 2-5-1-2
+start_time : 2026-01-09 00:56:39.564
+==================================================
+[CMD_VEL]
+  linear.x  : 0.150
+  angular.z : 0.079
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:39.565
+time_now : 2026-01-09 00:56:39.565
+
+cmd_vel:
+  linear.x  : 0.150 m/s
+  angular.z : 0.079 rad/s
+
+pose (map -> base_link):
+  x   : 3.807 m
+  y   : 5.657 m
+  yaw : -3.047 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.150
+  angular.z : 0.079
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:39.614
+time_now : 2026-01-09 00:56:39.614
+
+cmd_vel:
+  linear.x  : 0.150 m/s
+  angular.z : 0.079 rad/s
+
+pose (map -> base_link):
+  x   : 3.807 m
+  y   : 5.657 m
+  yaw : -3.046 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.134
+  angular.z : 0.047
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:39.664
+time_now : 2026-01-09 00:56:39.664
+
+cmd_vel:
+  linear.x  : 0.134 m/s
+  angular.z : 0.047 rad/s
+
+pose (map -> base_link):
+  x   : 3.819 m
+  y   : 5.656 m
+  yaw : -2.786 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.134
+  angular.z : 0.047
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:39.714
+time_now : 2026-01-09 00:56:39.714
+
+cmd_vel:
+  linear.x  : 0.134 m/s
+  angular.z : 0.047 rad/s
+
+pose (map -> base_link):
+  x   : 3.819 m
+  y   : 5.656 m
+  yaw : -2.785 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.134
+  angular.z : 0.047
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:39.764
+time_now : 2026-01-09 00:56:39.764
+
+cmd_vel:
+  linear.x  : 0.134 m/s
+  angular.z : 0.047 rad/s
+
+pose (map -> base_link):
+  x   : 3.831 m
+  y   : 5.655 m
+  yaw : -2.508 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.150
+  angular.z : 0.016
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:39.814
+time_now : 2026-01-09 00:56:39.814
+
+cmd_vel:
+  linear.x  : 0.150 m/s
+  angular.z : 0.016 rad/s
+
+pose (map -> base_link):
+  x   : 3.831 m
+  y   : 5.655 m
+  yaw : -2.507 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.150
+  angular.z : -0.016
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:39.864
+time_now : 2026-01-09 00:56:39.864
+
+cmd_vel:
+  linear.x  : 0.150 m/s
+  angular.z : -0.016 rad/s
+
+pose (map -> base_link):
+  x   : 3.848 m
+  y   : 5.654 m
+  yaw : -2.229 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.150
+  angular.z : -0.016
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:39.914
+time_now : 2026-01-09 00:56:39.914
+
+cmd_vel:
+  linear.x  : 0.150 m/s
+  angular.z : -0.016 rad/s
+
+pose (map -> base_link):
+  x   : 3.848 m
+  y   : 5.654 m
+  yaw : -2.228 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.150
+  angular.z : -0.016
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:39.964
+time_now : 2026-01-09 00:56:39.964
+
+cmd_vel:
+  linear.x  : 0.150 m/s
+  angular.z : -0.016 rad/s
+
+pose (map -> base_link):
+  x   : 3.860 m
+  y   : 5.653 m
+  yaw : -2.062 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.134
+  angular.z : -0.016
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:40.014
+time_now : 2026-01-09 00:56:40.014
+
+cmd_vel:
+  linear.x  : 0.134 m/s
+  angular.z : -0.016 rad/s
+
+pose (map -> base_link):
+  x   : 3.860 m
+  y   : 5.653 m
+  yaw : -2.061 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.134
+  angular.z : -0.016
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:40.064
+time_now : 2026-01-09 00:56:40.064
+
+cmd_vel:
+  linear.x  : 0.134 m/s
+  angular.z : -0.016 rad/s
+
+pose (map -> base_link):
+  x   : 3.877 m
+  y   : 5.652 m
+  yaw : -1.969 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.134
+  angular.z : -0.016
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:40.114
+time_now : 2026-01-09 00:56:40.114
+
+cmd_vel:
+  linear.x  : 0.134 m/s
+  angular.z : -0.016 rad/s
+
+pose (map -> base_link):
+  x   : 3.877 m
+  y   : 5.652 m
+  yaw : -1.968 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.150
+  angular.z : 0.079
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:40.164
+time_now : 2026-01-09 00:56:40.164
+
+cmd_vel:
+  linear.x  : 0.150 m/s
+  angular.z : 0.079 rad/s
+
+pose (map -> base_link):
+  x   : 3.889 m
+  y   : 5.652 m
+  yaw : -1.876 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.025
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:40.214
+time_now : 2026-01-09 00:56:40.214
+
+cmd_vel:
+  linear.x  : 0.025 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.889 m
+  y   : 5.652 m
+  yaw : -1.875 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:40.264
+time_now : 2026-01-09 00:56:40.264
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.905 m
+  y   : 5.651 m
+  yaw : -1.801 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:40.314
+time_now : 2026-01-09 00:56:40.314
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.905 m
+  y   : 5.651 m
+  yaw : -1.801 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:40.364
+time_now : 2026-01-09 00:56:40.364
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.916 m
+  y   : 5.650 m
+  yaw : -1.615 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:40.414
+time_now : 2026-01-09 00:56:40.414
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.916 m
+  y   : 5.650 m
+  yaw : -1.615 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:40.465
+time_now : 2026-01-09 00:56:40.465
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.925 m
+  y   : 5.650 m
+  yaw : -1.504 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:40.514
+time_now : 2026-01-09 00:56:40.514
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.925 m
+  y   : 5.650 m
+  yaw : -1.504 degree
+==================================================
+
+[SESSION START]
+shelf_id : 2-5-1-2
+start_time : 2026-01-09 00:56:40.564
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:40.564
+time_now : 2026-01-09 00:56:40.564
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.930 m
+  y   : 5.650 m
+  yaw : -1.448 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:40.614
+time_now : 2026-01-09 00:56:40.614
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.930 m
+  y   : 5.650 m
+  yaw : -1.448 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:40.664
+time_now : 2026-01-09 00:56:40.664
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.932 m
+  y   : 5.649 m
+  yaw : -1.392 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:40.714
+time_now : 2026-01-09 00:56:40.714
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.932 m
+  y   : 5.649 m
+  yaw : -1.394 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:40.764
+time_now : 2026-01-09 00:56:40.764
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.932 m
+  y   : 5.650 m
+  yaw : -1.485 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:40.814
+time_now : 2026-01-09 00:56:40.814
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.932 m
+  y   : 5.650 m
+  yaw : -1.485 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:40.864
+time_now : 2026-01-09 00:56:40.864
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.930 m
+  y   : 5.650 m
+  yaw : -1.575 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:40.914
+time_now : 2026-01-09 00:56:40.914
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.930 m
+  y   : 5.650 m
+  yaw : -1.575 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:40.964
+time_now : 2026-01-09 00:56:40.964
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.930 m
+  y   : 5.650 m
+  yaw : -1.575 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:41.014
+time_now : 2026-01-09 00:56:41.014
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.930 m
+  y   : 5.650 m
+  yaw : -1.575 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:41.064
+time_now : 2026-01-09 00:56:41.064
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.930 m
+  y   : 5.650 m
+  yaw : -1.520 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:41.115
+time_now : 2026-01-09 00:56:41.115
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.930 m
+  y   : 5.650 m
+  yaw : -1.520 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:41.164
+time_now : 2026-01-09 00:56:41.164
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.930 m
+  y   : 5.650 m
+  yaw : -1.502 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:41.214
+time_now : 2026-01-09 00:56:41.214
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.930 m
+  y   : 5.650 m
+  yaw : -1.502 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:41.264
+time_now : 2026-01-09 00:56:41.264
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.930 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:41.314
+time_now : 2026-01-09 00:56:41.314
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.930 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:41.364
+time_now : 2026-01-09 00:56:41.364
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.520 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:41.414
+time_now : 2026-01-09 00:56:41.414
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.520 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:41.464
+time_now : 2026-01-09 00:56:41.464
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.520 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:41.514
+time_now : 2026-01-09 00:56:41.514
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.520 degree
+==================================================
+
+[SESSION START]
+shelf_id : 2-5-1-2
+start_time : 2026-01-09 00:56:41.564
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:41.564
+time_now : 2026-01-09 00:56:41.564
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:41.614
+time_now : 2026-01-09 00:56:41.614
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:41.664
+time_now : 2026-01-09 00:56:41.664
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:41.714
+time_now : 2026-01-09 00:56:41.714
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:41.764
+time_now : 2026-01-09 00:56:41.764
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.520 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:41.814
+time_now : 2026-01-09 00:56:41.814
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.520 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:41.864
+time_now : 2026-01-09 00:56:41.864
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:41.914
+time_now : 2026-01-09 00:56:41.914
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:41.964
+time_now : 2026-01-09 00:56:41.964
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:42.014
+time_now : 2026-01-09 00:56:42.014
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:42.064
+time_now : 2026-01-09 00:56:42.064
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:42.114
+time_now : 2026-01-09 00:56:42.114
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:42.164
+time_now : 2026-01-09 00:56:42.164
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.519 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:42.214
+time_now : 2026-01-09 00:56:42.214
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.519 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:42.264
+time_now : 2026-01-09 00:56:42.264
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.519 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:42.314
+time_now : 2026-01-09 00:56:42.314
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.519 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:42.364
+time_now : 2026-01-09 00:56:42.364
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.519 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:42.414
+time_now : 2026-01-09 00:56:42.414
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.519 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:42.464
+time_now : 2026-01-09 00:56:42.464
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:42.514
+time_now : 2026-01-09 00:56:42.514
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+
+[SESSION START]
+shelf_id : 2-5-1-2
+start_time : 2026-01-09 00:56:42.564
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:42.565
+time_now : 2026-01-09 00:56:42.565
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:42.614
+time_now : 2026-01-09 00:56:42.614
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:42.664
+time_now : 2026-01-09 00:56:42.664
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:42.714
+time_now : 2026-01-09 00:56:42.714
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:42.764
+time_now : 2026-01-09 00:56:42.764
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:42.814
+time_now : 2026-01-09 00:56:42.814
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:42.864
+time_now : 2026-01-09 00:56:42.864
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:42.914
+time_now : 2026-01-09 00:56:42.914
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:42.964
+time_now : 2026-01-09 00:56:42.964
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:43.014
+time_now : 2026-01-09 00:56:43.014
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.501 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:43.064
+time_now : 2026-01-09 00:56:43.064
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.519 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:43.114
+time_now : 2026-01-09 00:56:43.114
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.519 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:43.164
+time_now : 2026-01-09 00:56:43.165
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.519 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:43.214
+time_now : 2026-01-09 00:56:43.214
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.519 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:43.264
+time_now : 2026-01-09 00:56:43.264
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.519 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:43.315
+time_now : 2026-01-09 00:56:43.315
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.519 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:43.364
+time_now : 2026-01-09 00:56:43.364
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.519 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:43.414
+time_now : 2026-01-09 00:56:43.414
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.519 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:43.464
+time_now : 2026-01-09 00:56:43.464
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.519 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:43.514
+time_now : 2026-01-09 00:56:43.514
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.519 degree
+==================================================
+[CMD_VEL]
+  linear.x  : 0.000
+  angular.z : 0.000
+shelf_id : 2-5-1-2
+wall_info:
+  wall_yaw_deg : N/A
+  wall_distance: N/A
+
+
+==================================================
+[CMD_VEL EVENT]
+time_cmd : 2026-01-09 00:56:43.565
+time_now : 2026-01-09 00:56:43.565
+
+cmd_vel:
+  linear.x  : 0.000 m/s
+  angular.z : 0.000 rad/s
+
+pose (map -> base_link):
+  x   : 3.929 m
+  y   : 5.650 m
+  yaw : -1.519 degree
+==================================================
+[SESSION END]
+end_time : 2026-01-09 00:56:48.567
+==================================================
+

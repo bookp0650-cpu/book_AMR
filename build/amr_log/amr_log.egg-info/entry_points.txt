@@ -1,0 +1,3 @@
+[console_scripts]
+amr_log = amr_log.amr_log:main
+

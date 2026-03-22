@@ -1,0 +1,1 @@
+/home/rover/ros2_ws/build/megarover3_navigation/ament_cmake_environment_hooks/local_setup.bash

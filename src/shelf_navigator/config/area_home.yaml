@@ -1,0 +1,27 @@
+areas:
+  1:
+    home:
+      x: -0.9
+      y: -0.16
+      yaw: 0.0
+      
+    corridor:
+      width: 0.94  
+
+  2:
+    home:
+      x: -0.9
+      y: 1.29
+      yaw: 0.0
+      
+    corridor:
+      width: 0.94  
+
+  3:
+    home:
+      x: -0.9
+      y: 2.74
+      yaw: 0.0
+      
+    corridor:
+      width: 0.94  

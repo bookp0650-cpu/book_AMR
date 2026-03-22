@@ -1,0 +1,1 @@
+/home/rover/ros2_ws/build/vs_rover_options_description/ament_cmake_core/vs_rover_options_descriptionConfig-version.cmake

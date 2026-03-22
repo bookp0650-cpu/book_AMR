@@ -1,0 +1,5 @@
+  File "/home/rover/ros2_ws/install/wall_ransac_initializer/lib/python3.10/site-packages/wall_ransac_initializer/map_error_y.py", line 174
+    def cb_trigger(self, msg):　#これは幅とただログに出してる関数
+                              ^
+SyntaxError: invalid non-printable character U+3000
+

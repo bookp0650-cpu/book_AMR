@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/amr_log/amr_log.egg-info/PKG-INFO
+../../build/amr_log/amr_log.egg-info/SOURCES.txt
+../../build/amr_log/amr_log.egg-info/dependency_links.txt
+../../build/amr_log/amr_log.egg-info/entry_points.txt
+../../build/amr_log/amr_log.egg-info/requires.txt
+../../build/amr_log/amr_log.egg-info/top_level.txt
+../../build/amr_log/amr_log.egg-info/zip-safe
+amr_log/__init__.py
+amr_log/amr_log.py
+resource/amr_log
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

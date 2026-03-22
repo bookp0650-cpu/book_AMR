@@ -1,0 +1,41 @@
+[0.010s] Invoking command in '/home/rover/ros2_ws/build/megarover3_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/rover/ros2_ws/build/megarover3_bringup -- -j18 -l18
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target pub_odom[0m
+[0.059s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_odom.dir/src/pub_odom.cpp.o[0m
+[5.839s] [100%] [32m[1mLinking CXX executable pub_odom[0m
+[6.130s] [100%] Built target pub_odom
+[6.141s] Invoked command in '/home/rover/ros2_ws/build/megarover3_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/rover/ros2_ws/build/megarover3_bringup -- -j18 -l18
+[6.149s] Invoking command in '/home/rover/ros2_ws/build/megarover3_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/opt/ros/humble /usr/bin/cmake --install /home/rover/ros2_ws/build/megarover3_bringup
+[6.155s] -- Install configuration: ""
+[6.155s] -- Installing: /home/rover/ros2_ws/install/megarover3_bringup/lib/megarover3_bringup/pub_odom
+[6.157s] -- Set runtime path of "/home/rover/ros2_ws/install/megarover3_bringup/lib/megarover3_bringup/pub_odom" to ""
+[6.157s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/launch
+[6.157s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/launch/__pycache__
+[6.157s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/launch/__pycache__/ydlidar_tg30_dual_launch.cpython-310.pyc
+[6.157s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/launch/all_launch.py
+[6.157s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/launch/ydlidar_tg30_dual_launch.py
+[6.157s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/launch/ydlidar_tg30_launch.py
+[6.157s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/launch/positioning.launch.py
+[6.157s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/launch/ydlidar_view.launch.py
+[6.157s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/rviz
+[6.157s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/rviz/mega3.rviz
+[6.157s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/rviz/laser.rviz
+[6.157s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/rviz/f120a.rviz
+[6.157s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/params
+[6.157s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/params/TG30_rear.yaml
+[6.157s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/params/TG30_front.yaml
+[6.158s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/ament_index/resource_index/package_run_dependencies/megarover3_bringup
+[6.158s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/ament_index/resource_index/parent_prefix_path/megarover3_bringup
+[6.158s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/environment/ament_prefix_path.sh
+[6.158s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/environment/ament_prefix_path.dsv
+[6.158s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/environment/path.sh
+[6.158s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/environment/path.dsv
+[6.158s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/local_setup.bash
+[6.158s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/local_setup.sh
+[6.158s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/local_setup.zsh
+[6.158s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/local_setup.dsv
+[6.158s] -- Installing: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/package.dsv
+[6.158s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/ament_index/resource_index/packages/megarover3_bringup
+[6.158s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/cmake/megarover3_bringupConfig.cmake
+[6.158s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/cmake/megarover3_bringupConfig-version.cmake
+[6.158s] -- Up-to-date: /home/rover/ros2_ws/install/megarover3_bringup/share/megarover3_bringup/package.xml
+[6.159s] Invoked command in '/home/rover/ros2_ws/build/megarover3_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/opt/ros/humble /usr/bin/cmake --install /home/rover/ros2_ws/build/megarover3_bringup

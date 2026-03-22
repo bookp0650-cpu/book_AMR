@@ -1,0 +1,24 @@
+[0.428s] Invoking command in '/home/rover/ros2_ws/src/amr_log': PYTHONPATH=/home/rover/ros2_ws/build/amr_log/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/ros2_ws/install/amr_log/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_log build --build-base /home/rover/ros2_ws/build/amr_log/build install --record /home/rover/ros2_ws/build/amr_log/install.log --single-version-externally-managed install_data
+[0.581s] running egg_info
+[0.581s] writing ../../build/amr_log/amr_log.egg-info/PKG-INFO
+[0.581s] writing dependency_links to ../../build/amr_log/amr_log.egg-info/dependency_links.txt
+[0.581s] writing entry points to ../../build/amr_log/amr_log.egg-info/entry_points.txt
+[0.581s] writing requirements to ../../build/amr_log/amr_log.egg-info/requires.txt
+[0.581s] writing top-level names to ../../build/amr_log/amr_log.egg-info/top_level.txt
+[0.582s] reading manifest file '../../build/amr_log/amr_log.egg-info/SOURCES.txt'
+[0.582s] writing manifest file '../../build/amr_log/amr_log.egg-info/SOURCES.txt'
+[0.582s] running build
+[0.583s] running build_py
+[0.583s] copying amr_log/amr_log.py -> /home/rover/ros2_ws/build/amr_log/build/lib/amr_log
+[0.583s] running install
+[0.583s] running install_lib
+[0.583s] copying /home/rover/ros2_ws/build/amr_log/build/lib/amr_log/amr_log.py -> /home/rover/ros2_ws/install/amr_log/lib/python3.10/site-packages/amr_log
+[0.583s] byte-compiling /home/rover/ros2_ws/install/amr_log/lib/python3.10/site-packages/amr_log/amr_log.py to amr_log.cpython-310.pyc
+[0.584s] running install_data
+[0.585s] running install_egg_info
+[0.586s] removing '/home/rover/ros2_ws/install/amr_log/lib/python3.10/site-packages/amr_log-0.0.0-py3.10.egg-info' (and everything under it)
+[0.586s] Copying ../../build/amr_log/amr_log.egg-info to /home/rover/ros2_ws/install/amr_log/lib/python3.10/site-packages/amr_log-0.0.0-py3.10.egg-info
+[0.586s] running install_scripts
+[0.599s] Installing amr_log script to /home/rover/ros2_ws/install/amr_log/lib/amr_log
+[0.599s] writing list of installed files to '/home/rover/ros2_ws/build/amr_log/install.log'
+[0.616s] Invoked command in '/home/rover/ros2_ws/src/amr_log' returned '0': PYTHONPATH=/home/rover/ros2_ws/build/amr_log/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/ros2_ws/install/amr_log/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_log build --build-base /home/rover/ros2_ws/build/amr_log/build install --record /home/rover/ros2_ws/build/amr_log/install.log --single-version-externally-managed install_data

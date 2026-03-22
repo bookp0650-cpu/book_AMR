@@ -1,0 +1,57 @@
+shelf:
+  shelf_length: 1.794 #0.9      # 1棚の長さ [m] 
+  column_length: 0.3508 # 棚内1列の幅/2 [m]（トーハンでは7列あった）
+  pillar_width: 0.041
+
+nav:
+  x_offset: -1.0   #MAP上の棚の最初 [m]  #野田図書館:-0.27　2号館:2.0 トーハン: -1.0
+  nav_x_offset: 0.85  #base_footprintとcapture_link
+
+system:
+  initial_area: 1
+
+areas:
+  1:
+    home:
+      x: -1.6
+      y: -3.6
+      yaw: 0.0
+      
+    corridor:
+      width: 0.8  
+
+  2:
+    home:
+      x: -1.6
+      y: -2.4
+      yaw: 0.0
+
+    corridor:
+      width: 0.8  
+ 
+  3:
+    home:
+      x: -1.6
+      y: -1.2
+      yaw: 0.0
+      
+    corridor:
+      width: 0.8
+      
+  4:
+    home:
+      x: -1.6
+      y: 0.12
+      yaw: 0.0
+      
+    corridor:
+      width: 0.8 
+      
+  5:
+    home:
+      x: -1.6
+      y: 1.45
+      yaw: 0.0
+      
+    corridor:
+      width: 0.8 

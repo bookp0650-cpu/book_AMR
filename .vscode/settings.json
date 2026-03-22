@@ -1,0 +1,16 @@
+{
+  "code-runner.executorMap": {
+    "python": "bash -c \"source /opt/ros/humble/setup.bash && source ~/ros2_ws/install/setup.bash && python3\""
+  },
+  "files.watcherExclude": {
+    "**/build/**": true,
+    "**/install/**": true,
+    "**/log/**": true,
+    "**/.git/**": true
+  },
+  "search.exclude": {
+    "**/build/**": true,
+    "**/install/**": true,
+    "**/log/**": true
+  }
+}

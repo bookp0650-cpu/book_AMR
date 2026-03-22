@@ -1,0 +1,438 @@
+[0.000000] (-) TimerEvent: {}
+[0.000505] (-) JobUnselected: {'identifier': 'arrow_key_teleop'}
+[0.000557] (-) JobUnselected: {'identifier': 'final_approach_controller'}
+[0.000572] (-) JobUnselected: {'identifier': 'iai_cylinder'}
+[0.000582] (-) JobUnselected: {'identifier': 'js0_teleop'}
+[0.000594] (-) JobUnselected: {'identifier': 'megarover3'}
+[0.000607] (-) JobUnselected: {'identifier': 'megarover3_bringup'}
+[0.000669] (-) JobUnselected: {'identifier': 'megarover3_navigation'}
+[0.000872] (-) JobUnselected: {'identifier': 'megarover_description'}
+[0.001157] (-) JobUnselected: {'identifier': 'my_scan_merger'}
+[0.001274] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.001289] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.001302] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.001314] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.001326] (-) JobUnselected: {'identifier': 'ros2_to_ros1_bridge'}
+[0.001339] (-) JobUnselected: {'identifier': 'shelf_navigator'}
+[0.001351] (-) JobUnselected: {'identifier': 'trajectory_logger'}
+[0.001364] (-) JobUnselected: {'identifier': 'udp_bridge'}
+[0.001376] (-) JobUnselected: {'identifier': 'vs_rover_options_description'}
+[0.001389] (-) JobUnselected: {'identifier': 'wall_ransac_initializer'}
+[0.001402] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.001417] (nav2_amcl) JobQueued: {'identifier': 'nav2_amcl', 'dependencies': OrderedDict()}
+[0.001434] (nav2_amcl) JobStarted: {'identifier': 'nav2_amcl'}
+[0.008481] (nav2_amcl) JobProgress: {'identifier': 'nav2_amcl', 'progress': 'cmake'}
+[0.009267] (nav2_amcl) Command: {'cmd': ['/usr/bin/cmake', '/home/rover/ros2_ws/src/navigation2/nav2_amcl', '-DCMAKE_INSTALL_PREFIX=/home/rover/ros2_ws/install/nav2_amcl'], 'cwd': '/home/rover/ros2_ws/build/nav2_amcl', 'env': OrderedDict([('VNCDESKTOP', 'TurboVNC: rover-NUC14RVK-B:1 (rover)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'rover'), ('SSH_CLIENT', '172.20.10.6 51865 22'), ('LC_TIME', 'ja_JP.UTF-8'), ('SSH_AGENT_PID', '2443'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rover/ros2_ws/install/realsense2_camera/lib:/home/rover/ros2_ws/install/realsense2_camera_msgs/lib:/home/rover/ros2_ws/install/nav2_bt_dummy/lib:/home/rover/ros2_ws/install/nav2_amcl/lib:/home/rover/uros_ws/install/micro_ros_agent/lib:/home/rover/uros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rover'), ('OLDPWD', '/home/rover/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-5KDAzw5RRB,guid=d805b47307e8319a5a3e930b695924cf'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rover/ros2_ws/install:/home/rover/uros_ws/install'), ('ROS_DISTRO', 'humble'), ('VGL_PROBEGLX', '0'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rover'), ('FONT_ENCODINGS_DIRECTORY', '/usr/share/fonts/X11/encodings'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rover-NUC14RVK-B:@/tmp/.ICE-unix/2358,unix/rover-NUC14RVK-B:/tmp/.ICE-unix/2358'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42d117d9_c8c0_4f81_bf92_0a6d93934737'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('VGL_COMPRESS', '0'), ('DISPLAY', ':1'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.76'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '20'), ('AMENT_PREFIX_PATH', '/home/rover/ros2_ws/install/ydlidar_ros2_driver:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/rf2o_laser_odometry:/home/rover/ros2_ws/install/realsense2_description:/home/rover/ros2_ws/install/realsense2_camera:/home/rover/ros2_ws/install/realsense2_camera_msgs:/home/rover/ros2_ws/install/nav2_bt_dummy:/home/rover/ros2_ws/install/nav2_amcl:/home/rover/ros2_ws/install/my_scan_merger:/home/rover/ros2_ws/install/megarover3:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_navigation:/home/rover/ros2_ws/install/megarover3_bringup:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/home/rover/uros_ws/install/micro_ros_setup:/home/rover/uros_ws/install/micro_ros_agent:/home/rover/uros_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rover/ros2_ws/build/nav2_amcl'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SSH_CONNECTION', '172.20.10.6 51865 172.20.10.2 22'), ('DBUS_STARTER_ADDRESS', 'unix:abstract=/tmp/dbus-5KDAzw5RRB,guid=d805b47307e8319a5a3e930b695924cf'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/rover/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rover/ros2_ws/install/wall_ransac_initializer/lib/python3.10/site-packages:/home/rover/ros2_ws/build/udp_bridge:/home/rover/ros2_ws/install/udp_bridge/lib/python3.10/site-packages:/home/rover/ros2_ws/build/trajectory_logger:/home/rover/ros2_ws/install/trajectory_logger/lib/python3.10/site-packages:/home/rover/ros2_ws/install/shelf_navigator/lib/python3.10/site-packages:/home/rover/ros2_ws/build/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/ros2_to_ros1_bridge/lib/python3.10/site-packages:/home/rover/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/rover/ros2_ws/build/js0_teleop:/home/rover/ros2_ws/install/js0_teleop/lib/python3.10/site-packages:/home/rover/ros2_ws/build/iai_cylinder:/home/rover/ros2_ws/install/iai_cylinder/lib/python3.10/site-packages:/home/rover/ros2_ws/build/final_approach_controller:/home/rover/ros2_ws/install/final_approach_controller/lib/python3.10/site-packages:/home/rover/ros2_ws/build/arrow_key_teleop:/home/rover/ros2_ws/install/arrow_key_teleop/lib/python3.10/site-packages:/home/rover/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rover/ros2_ws/install/ydlidar_ros2_driver:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/rf2o_laser_odometry:/home/rover/ros2_ws/install/realsense2_description:/home/rover/ros2_ws/install/realsense2_camera:/home/rover/ros2_ws/install/realsense2_camera_msgs:/home/rover/ros2_ws/install/nav2_bt_dummy:/home/rover/ros2_ws/install/nav2_amcl:/home/rover/ros2_ws/install/my_scan_merger:/home/rover/ros2_ws/install/megarover3:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_navigation:/home/rover/ros2_ws/install/megarover3_bringup:/home/rover/uros_ws/install/micro_ros_setup:/home/rover/uros_ws/install/micro_ros_agent:/home/rover/uros_ws/install/micro_ros_msgs:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/opt/ros/humble')]), 'shell': False}
+[0.050509] (nav2_amcl) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.086871] (nav2_amcl) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.091099] (nav2_amcl) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099874] (-) TimerEvent: {}
+[0.143414] (nav2_amcl) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.147891] (nav2_amcl) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.148031] (nav2_amcl) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.148275] (nav2_amcl) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.150007] (nav2_amcl) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199979] (-) TimerEvent: {}
+[0.209114] (nav2_amcl) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.214434] (nav2_amcl) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.214631] (nav2_amcl) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.214902] (nav2_amcl) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.217221] (nav2_amcl) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300072] (-) TimerEvent: {}
+[0.337186] (nav2_amcl) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400182] (-) TimerEvent: {}
+[0.416943] (nav2_amcl) StdoutLine: {'line': b'-- Found nav2_common: 1.1.19 (/opt/ros/humble/share/nav2_common/cmake)\n'}
+[0.419545] (nav2_amcl) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.455580] (nav2_amcl) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.460065] (nav2_amcl) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.466676] (nav2_amcl) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.475426] (nav2_amcl) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.487083] (nav2_amcl) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500238] (-) TimerEvent: {}
+[0.519794] (nav2_amcl) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.522425] (nav2_amcl) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600353] (-) TimerEvent: {}
+[0.600866] (nav2_amcl) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.619376] (nav2_amcl) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.646734] (nav2_amcl) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.654355] (nav2_amcl) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.700467] (-) TimerEvent: {}
+[0.714519] (nav2_amcl) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.714792] (nav2_amcl) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.772159] (nav2_amcl) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.773681] (nav2_amcl) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.800615] (-) TimerEvent: {}
+[0.813339] (nav2_amcl) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.15 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.832050] (nav2_amcl) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.851829] (nav2_amcl) StdoutLine: {'line': b'-- Found message_filters: 4.3.11 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[0.855220] (nav2_amcl) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.17 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.875660] (nav2_amcl) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.876446] (nav2_amcl) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.876610] (nav2_amcl) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.900690] (-) TimerEvent: {}
+[0.923872] (nav2_amcl) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.935766] (nav2_amcl) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.947639] (nav2_amcl) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.957681] (nav2_amcl) StdoutLine: {'line': b'-- Found nav2_util: 1.1.19 (/opt/ros/humble/share/nav2_util/cmake)\n'}
+[1.000789] (-) TimerEvent: {}
+[1.004069] (nav2_amcl) StdoutLine: {'line': b'-- Found pluginlib: 5.1.2 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[1.014649] (nav2_amcl) StdoutLine: {'line': b'-- Setting build type to Release as none was specified.\n'}
+[1.015281] (nav2_amcl) StdoutLine: {'line': b'-- Looking for drand48\n'}
+[1.074434] (nav2_amcl) StdoutLine: {'line': b'-- Looking for drand48 - found\n'}
+[1.100916] (-) TimerEvent: {}
+[1.152431] (nav2_amcl) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.201031] (-) TimerEvent: {}
+[1.216068] (nav2_amcl) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.216400] (nav2_amcl) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/rover/ros2_ws/src/navigation2/nav2_amcl/include;/home/rover/ros2_ws/src/navigation2/nav2_amcl/src/include\n'}
+[1.216544] (nav2_amcl) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.217206] (nav2_amcl) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.218455] (nav2_amcl) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.218605] (nav2_amcl) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.218925] (nav2_amcl) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.220596] (nav2_amcl) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.266872] (nav2_amcl) StdoutLine: {'line': b'-- Generating done\n'}
+[1.275061] (nav2_amcl) StdoutLine: {'line': b'-- Build files have been written to: /home/rover/ros2_ws/build/nav2_amcl\n'}
+[1.284472] (nav2_amcl) CommandEnded: {'returncode': 0}
+[1.285638] (nav2_amcl) JobProgress: {'identifier': 'nav2_amcl', 'progress': 'build'}
+[1.287330] (nav2_amcl) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rover/ros2_ws/build/nav2_amcl', '--', '-j18', '-l18'], 'cwd': '/home/rover/ros2_ws/build/nav2_amcl', 'env': OrderedDict([('VNCDESKTOP', 'TurboVNC: rover-NUC14RVK-B:1 (rover)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'rover'), ('SSH_CLIENT', '172.20.10.6 51865 22'), ('LC_TIME', 'ja_JP.UTF-8'), ('SSH_AGENT_PID', '2443'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rover/ros2_ws/install/realsense2_camera/lib:/home/rover/ros2_ws/install/realsense2_camera_msgs/lib:/home/rover/ros2_ws/install/nav2_bt_dummy/lib:/home/rover/ros2_ws/install/nav2_amcl/lib:/home/rover/uros_ws/install/micro_ros_agent/lib:/home/rover/uros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rover'), ('OLDPWD', '/home/rover/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-5KDAzw5RRB,guid=d805b47307e8319a5a3e930b695924cf'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rover/ros2_ws/install:/home/rover/uros_ws/install'), ('ROS_DISTRO', 'humble'), ('VGL_PROBEGLX', '0'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rover'), ('FONT_ENCODINGS_DIRECTORY', '/usr/share/fonts/X11/encodings'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rover-NUC14RVK-B:@/tmp/.ICE-unix/2358,unix/rover-NUC14RVK-B:/tmp/.ICE-unix/2358'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42d117d9_c8c0_4f81_bf92_0a6d93934737'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('VGL_COMPRESS', '0'), ('DISPLAY', ':1'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.76'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '20'), ('AMENT_PREFIX_PATH', '/home/rover/ros2_ws/install/ydlidar_ros2_driver:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/rf2o_laser_odometry:/home/rover/ros2_ws/install/realsense2_description:/home/rover/ros2_ws/install/realsense2_camera:/home/rover/ros2_ws/install/realsense2_camera_msgs:/home/rover/ros2_ws/install/nav2_bt_dummy:/home/rover/ros2_ws/install/nav2_amcl:/home/rover/ros2_ws/install/my_scan_merger:/home/rover/ros2_ws/install/megarover3:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_navigation:/home/rover/ros2_ws/install/megarover3_bringup:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/home/rover/uros_ws/install/micro_ros_setup:/home/rover/uros_ws/install/micro_ros_agent:/home/rover/uros_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rover/ros2_ws/build/nav2_amcl'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SSH_CONNECTION', '172.20.10.6 51865 172.20.10.2 22'), ('DBUS_STARTER_ADDRESS', 'unix:abstract=/tmp/dbus-5KDAzw5RRB,guid=d805b47307e8319a5a3e930b695924cf'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/rover/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rover/ros2_ws/install/wall_ransac_initializer/lib/python3.10/site-packages:/home/rover/ros2_ws/build/udp_bridge:/home/rover/ros2_ws/install/udp_bridge/lib/python3.10/site-packages:/home/rover/ros2_ws/build/trajectory_logger:/home/rover/ros2_ws/install/trajectory_logger/lib/python3.10/site-packages:/home/rover/ros2_ws/install/shelf_navigator/lib/python3.10/site-packages:/home/rover/ros2_ws/build/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/ros2_to_ros1_bridge/lib/python3.10/site-packages:/home/rover/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/rover/ros2_ws/build/js0_teleop:/home/rover/ros2_ws/install/js0_teleop/lib/python3.10/site-packages:/home/rover/ros2_ws/build/iai_cylinder:/home/rover/ros2_ws/install/iai_cylinder/lib/python3.10/site-packages:/home/rover/ros2_ws/build/final_approach_controller:/home/rover/ros2_ws/install/final_approach_controller/lib/python3.10/site-packages:/home/rover/ros2_ws/build/arrow_key_teleop:/home/rover/ros2_ws/install/arrow_key_teleop/lib/python3.10/site-packages:/home/rover/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rover/ros2_ws/install/ydlidar_ros2_driver:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/rf2o_laser_odometry:/home/rover/ros2_ws/install/realsense2_description:/home/rover/ros2_ws/install/realsense2_camera:/home/rover/ros2_ws/install/realsense2_camera_msgs:/home/rover/ros2_ws/install/nav2_bt_dummy:/home/rover/ros2_ws/install/nav2_amcl:/home/rover/ros2_ws/install/my_scan_merger:/home/rover/ros2_ws/install/megarover3:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_navigation:/home/rover/ros2_ws/install/megarover3_bringup:/home/rover/uros_ws/install/micro_ros_setup:/home/rover/uros_ws/install/micro_ros_agent:/home/rover/uros_ws/install/micro_ros_msgs:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/opt/ros/humble')]), 'shell': False}
+[1.301097] (-) TimerEvent: {}
+[1.327758] (nav2_amcl) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object src/map/CMakeFiles/map_lib.dir/map_cspace.cpp.o\x1b[0m\n'}
+[1.329196] (nav2_amcl) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object src/map/CMakeFiles/map_lib.dir/map.c.o\x1b[0m\n'}
+[1.329370] (nav2_amcl) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object src/map/CMakeFiles/map_lib.dir/map_draw.c.o\x1b[0m\n'}
+[1.329434] (nav2_amcl) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object src/map/CMakeFiles/map_lib.dir/map_range.c.o\x1b[0m\n'}
+[1.330424] (nav2_amcl) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf_kdtree.c.o\x1b[0m\n'}
+[1.332171] (nav2_amcl) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/eig3.c.o\x1b[0m\n'}
+[1.332470] (nav2_amcl) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf_draw.c.o\x1b[0m\n'}
+[1.332743] (nav2_amcl) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf.c.o\x1b[0m\n'}
+[1.332911] (nav2_amcl) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf_pdf.c.o\x1b[0m\n'}
+[1.333282] (nav2_amcl) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf_vector.c.o\x1b[0m\n'}
+[1.401223] (-) TimerEvent: {}
+[1.438810] (nav2_amcl) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking C shared library libpf_lib.so\x1b[0m\n'}
+[1.467553] (nav2_amcl) StdoutLine: {'line': b'[ 45%] Built target pf_lib\n'}
+[1.484816] (nav2_amcl) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object src/motion_model/CMakeFiles/motions_lib.dir/omni_motion_model.cpp.o\x1b[0m\n'}
+[1.485660] (nav2_amcl) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object src/motion_model/CMakeFiles/motions_lib.dir/differential_motion_model.cpp.o\x1b[0m\n'}
+[1.501327] (-) TimerEvent: {}
+[1.530125] (nav2_amcl) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmap_lib.so\x1b[0m\n'}
+[1.585828] (nav2_amcl) StdoutLine: {'line': b'[ 58%] Built target map_lib\n'}
+[1.601428] (-) TimerEvent: {}
+[1.604722] (nav2_amcl) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/laser.cpp.o\x1b[0m\n'}
+[1.604809] (nav2_amcl) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/beam_model.cpp.o\x1b[0m\n'}
+[1.604841] (nav2_amcl) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/likelihood_field_model.cpp.o\x1b[0m\n'}
+[1.604868] (nav2_amcl) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/likelihood_field_model_prob.cpp.o\x1b[0m\n'}
+[1.701552] (-) TimerEvent: {}
+[1.801918] (-) TimerEvent: {}
+[1.879151] (nav2_amcl) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libsensors_lib.so\x1b[0m\n'}
+[1.902057] (-) TimerEvent: {}
+[1.936603] (nav2_amcl) StdoutLine: {'line': b'[ 79%] Built target sensors_lib\n'}
+[1.953040] (nav2_amcl) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/amcl_core.dir/src/amcl_node.cpp.o\x1b[0m\n'}
+[1.972587] (nav2_amcl) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libmotions_lib.so\x1b[0m\n'}
+[2.002194] (-) TimerEvent: {}
+[2.102606] (-) TimerEvent: {}
+[2.125731] (nav2_amcl) StdoutLine: {'line': b'[ 87%] Built target motions_lib\n'}
+[2.202715] (-) TimerEvent: {}
+[2.303103] (-) TimerEvent: {}
+[2.403492] (-) TimerEvent: {}
+[2.503803] (-) TimerEvent: {}
+[2.604154] (-) TimerEvent: {}
+[2.704443] (-) TimerEvent: {}
+[2.804941] (-) TimerEvent: {}
+[2.905261] (-) TimerEvent: {}
+[3.005592] (-) TimerEvent: {}
+[3.105935] (-) TimerEvent: {}
+[3.206299] (-) TimerEvent: {}
+[3.306681] (-) TimerEvent: {}
+[3.407009] (-) TimerEvent: {}
+[3.507358] (-) TimerEvent: {}
+[3.607711] (-) TimerEvent: {}
+[3.708044] (-) TimerEvent: {}
+[3.808387] (-) TimerEvent: {}
+[3.908717] (-) TimerEvent: {}
+[4.009021] (-) TimerEvent: {}
+[4.109338] (-) TimerEvent: {}
+[4.209648] (-) TimerEvent: {}
+[4.309979] (-) TimerEvent: {}
+[4.410329] (-) TimerEvent: {}
+[4.510689] (-) TimerEvent: {}
+[4.611038] (-) TimerEvent: {}
+[4.711411] (-) TimerEvent: {}
+[4.811727] (-) TimerEvent: {}
+[4.912051] (-) TimerEvent: {}
+[5.012398] (-) TimerEvent: {}
+[5.112729] (-) TimerEvent: {}
+[5.213081] (-) TimerEvent: {}
+[5.313447] (-) TimerEvent: {}
+[5.413795] (-) TimerEvent: {}
+[5.514128] (-) TimerEvent: {}
+[5.614478] (-) TimerEvent: {}
+[5.714846] (-) TimerEvent: {}
+[5.815271] (-) TimerEvent: {}
+[5.915592] (-) TimerEvent: {}
+[6.015978] (-) TimerEvent: {}
+[6.116533] (-) TimerEvent: {}
+[6.216970] (-) TimerEvent: {}
+[6.317318] (-) TimerEvent: {}
+[6.417667] (-) TimerEvent: {}
+[6.518063] (-) TimerEvent: {}
+[6.618514] (-) TimerEvent: {}
+[6.718821] (-) TimerEvent: {}
+[6.819135] (-) TimerEvent: {}
+[6.919463] (-) TimerEvent: {}
+[7.019804] (-) TimerEvent: {}
+[7.120223] (-) TimerEvent: {}
+[7.220555] (-) TimerEvent: {}
+[7.320836] (-) TimerEvent: {}
+[7.421219] (-) TimerEvent: {}
+[7.521614] (-) TimerEvent: {}
+[7.621873] (-) TimerEvent: {}
+[7.722203] (-) TimerEvent: {}
+[7.822526] (-) TimerEvent: {}
+[7.922848] (-) TimerEvent: {}
+[8.023176] (-) TimerEvent: {}
+[8.123491] (-) TimerEvent: {}
+[8.223797] (-) TimerEvent: {}
+[8.324110] (-) TimerEvent: {}
+[8.424424] (-) TimerEvent: {}
+[8.524759] (-) TimerEvent: {}
+[8.625155] (-) TimerEvent: {}
+[8.725498] (-) TimerEvent: {}
+[8.825894] (-) TimerEvent: {}
+[8.926341] (-) TimerEvent: {}
+[9.026682] (-) TimerEvent: {}
+[9.127070] (-) TimerEvent: {}
+[9.227512] (-) TimerEvent: {}
+[9.327836] (-) TimerEvent: {}
+[9.428163] (-) TimerEvent: {}
+[9.528487] (-) TimerEvent: {}
+[9.628830] (-) TimerEvent: {}
+[9.729176] (-) TimerEvent: {}
+[9.829520] (-) TimerEvent: {}
+[9.929846] (-) TimerEvent: {}
+[10.030195] (-) TimerEvent: {}
+[10.130521] (-) TimerEvent: {}
+[10.230882] (-) TimerEvent: {}
+[10.331311] (-) TimerEvent: {}
+[10.431655] (-) TimerEvent: {}
+[10.532007] (-) TimerEvent: {}
+[10.632371] (-) TimerEvent: {}
+[10.732718] (-) TimerEvent: {}
+[10.833049] (-) TimerEvent: {}
+[10.933376] (-) TimerEvent: {}
+[11.033719] (-) TimerEvent: {}
+[11.133993] (-) TimerEvent: {}
+[11.234266] (-) TimerEvent: {}
+[11.334589] (-) TimerEvent: {}
+[11.434895] (-) TimerEvent: {}
+[11.535238] (-) TimerEvent: {}
+[11.635563] (-) TimerEvent: {}
+[11.735893] (-) TimerEvent: {}
+[11.836215] (-) TimerEvent: {}
+[11.936535] (-) TimerEvent: {}
+[12.036855] (-) TimerEvent: {}
+[12.137186] (-) TimerEvent: {}
+[12.237563] (-) TimerEvent: {}
+[12.337810] (-) TimerEvent: {}
+[12.438184] (-) TimerEvent: {}
+[12.538487] (-) TimerEvent: {}
+[12.638748] (-) TimerEvent: {}
+[12.739071] (-) TimerEvent: {}
+[12.839432] (-) TimerEvent: {}
+[12.939775] (-) TimerEvent: {}
+[13.040162] (-) TimerEvent: {}
+[13.140493] (-) TimerEvent: {}
+[13.240815] (-) TimerEvent: {}
+[13.341156] (-) TimerEvent: {}
+[13.441460] (-) TimerEvent: {}
+[13.541745] (-) TimerEvent: {}
+[13.642056] (-) TimerEvent: {}
+[13.742415] (-) TimerEvent: {}
+[13.842754] (-) TimerEvent: {}
+[13.943076] (-) TimerEvent: {}
+[14.043390] (-) TimerEvent: {}
+[14.143671] (-) TimerEvent: {}
+[14.243970] (-) TimerEvent: {}
+[14.344301] (-) TimerEvent: {}
+[14.444606] (-) TimerEvent: {}
+[14.544931] (-) TimerEvent: {}
+[14.645318] (-) TimerEvent: {}
+[14.745636] (-) TimerEvent: {}
+[14.845951] (-) TimerEvent: {}
+[14.946287] (-) TimerEvent: {}
+[15.046599] (-) TimerEvent: {}
+[15.146900] (-) TimerEvent: {}
+[15.247215] (-) TimerEvent: {}
+[15.347511] (-) TimerEvent: {}
+[15.447787] (-) TimerEvent: {}
+[15.548047] (-) TimerEvent: {}
+[15.648344] (-) TimerEvent: {}
+[15.748648] (-) TimerEvent: {}
+[15.848964] (-) TimerEvent: {}
+[15.949262] (-) TimerEvent: {}
+[16.049559] (-) TimerEvent: {}
+[16.149877] (-) TimerEvent: {}
+[16.250187] (-) TimerEvent: {}
+[16.350446] (-) TimerEvent: {}
+[16.450764] (-) TimerEvent: {}
+[16.551065] (-) TimerEvent: {}
+[16.651384] (-) TimerEvent: {}
+[16.751695] (-) TimerEvent: {}
+[16.851996] (-) TimerEvent: {}
+[16.952316] (-) TimerEvent: {}
+[17.052641] (-) TimerEvent: {}
+[17.152956] (-) TimerEvent: {}
+[17.253288] (-) TimerEvent: {}
+[17.353624] (-) TimerEvent: {}
+[17.454003] (-) TimerEvent: {}
+[17.554418] (-) TimerEvent: {}
+[17.654745] (-) TimerEvent: {}
+[17.755072] (-) TimerEvent: {}
+[17.855419] (-) TimerEvent: {}
+[17.955735] (-) TimerEvent: {}
+[18.056056] (-) TimerEvent: {}
+[18.156379] (-) TimerEvent: {}
+[18.256696] (-) TimerEvent: {}
+[18.357118] (-) TimerEvent: {}
+[18.457531] (-) TimerEvent: {}
+[18.557829] (-) TimerEvent: {}
+[18.658165] (-) TimerEvent: {}
+[18.758495] (-) TimerEvent: {}
+[18.858816] (-) TimerEvent: {}
+[18.959131] (-) TimerEvent: {}
+[19.059468] (-) TimerEvent: {}
+[19.159820] (-) TimerEvent: {}
+[19.260219] (-) TimerEvent: {}
+[19.360524] (-) TimerEvent: {}
+[19.460847] (-) TimerEvent: {}
+[19.561171] (-) TimerEvent: {}
+[19.661484] (-) TimerEvent: {}
+[19.761792] (-) TimerEvent: {}
+[19.862154] (-) TimerEvent: {}
+[19.962550] (-) TimerEvent: {}
+[20.062874] (-) TimerEvent: {}
+[20.163341] (-) TimerEvent: {}
+[20.263710] (-) TimerEvent: {}
+[20.364068] (-) TimerEvent: {}
+[20.464514] (-) TimerEvent: {}
+[20.564789] (-) TimerEvent: {}
+[20.665060] (-) TimerEvent: {}
+[20.765454] (-) TimerEvent: {}
+[20.865774] (-) TimerEvent: {}
+[20.966088] (-) TimerEvent: {}
+[21.066408] (-) TimerEvent: {}
+[21.166713] (-) TimerEvent: {}
+[21.266998] (-) TimerEvent: {}
+[21.367337] (-) TimerEvent: {}
+[21.467743] (-) TimerEvent: {}
+[21.568055] (-) TimerEvent: {}
+[21.668405] (-) TimerEvent: {}
+[21.768749] (-) TimerEvent: {}
+[21.869160] (-) TimerEvent: {}
+[21.969473] (-) TimerEvent: {}
+[22.069813] (-) TimerEvent: {}
+[22.170245] (-) TimerEvent: {}
+[22.270617] (-) TimerEvent: {}
+[22.370921] (-) TimerEvent: {}
+[22.471253] (-) TimerEvent: {}
+[22.571571] (-) TimerEvent: {}
+[22.671908] (-) TimerEvent: {}
+[22.772267] (-) TimerEvent: {}
+[22.872608] (-) TimerEvent: {}
+[22.972877] (-) TimerEvent: {}
+[23.073221] (-) TimerEvent: {}
+[23.114961] (nav2_amcl) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX shared library libamcl_core.so\x1b[0m\n'}
+[23.173331] (-) TimerEvent: {}
+[23.273814] (-) TimerEvent: {}
+[23.366088] (nav2_amcl) StdoutLine: {'line': b'[ 91%] Built target amcl_core\n'}
+[23.373873] (-) TimerEvent: {}
+[23.384734] (nav2_amcl) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/amcl.dir/src/main.cpp.o\x1b[0m\n'}
+[23.474013] (-) TimerEvent: {}
+[23.574505] (-) TimerEvent: {}
+[23.674853] (-) TimerEvent: {}
+[23.775186] (-) TimerEvent: {}
+[23.875524] (-) TimerEvent: {}
+[23.975894] (-) TimerEvent: {}
+[24.076246] (-) TimerEvent: {}
+[24.176586] (-) TimerEvent: {}
+[24.276932] (-) TimerEvent: {}
+[24.377289] (-) TimerEvent: {}
+[24.477629] (-) TimerEvent: {}
+[24.577978] (-) TimerEvent: {}
+[24.678335] (-) TimerEvent: {}
+[24.778725] (-) TimerEvent: {}
+[24.879072] (-) TimerEvent: {}
+[24.979427] (-) TimerEvent: {}
+[25.079753] (-) TimerEvent: {}
+[25.180089] (-) TimerEvent: {}
+[25.280451] (-) TimerEvent: {}
+[25.380815] (-) TimerEvent: {}
+[25.481154] (-) TimerEvent: {}
+[25.581512] (-) TimerEvent: {}
+[25.681849] (-) TimerEvent: {}
+[25.782196] (-) TimerEvent: {}
+[25.882525] (-) TimerEvent: {}
+[25.982886] (-) TimerEvent: {}
+[26.083225] (-) TimerEvent: {}
+[26.183556] (-) TimerEvent: {}
+[26.204856] (nav2_amcl) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable amcl\x1b[0m\n'}
+[26.283703] (-) TimerEvent: {}
+[26.384110] (-) TimerEvent: {}
+[26.400590] (nav2_amcl) StdoutLine: {'line': b'[100%] Built target amcl\n'}
+[26.410481] (nav2_amcl) CommandEnded: {'returncode': 0}
+[26.411087] (nav2_amcl) JobProgress: {'identifier': 'nav2_amcl', 'progress': 'install'}
+[26.418960] (nav2_amcl) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rover/ros2_ws/build/nav2_amcl'], 'cwd': '/home/rover/ros2_ws/build/nav2_amcl', 'env': OrderedDict([('VNCDESKTOP', 'TurboVNC: rover-NUC14RVK-B:1 (rover)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'rover'), ('SSH_CLIENT', '172.20.10.6 51865 22'), ('LC_TIME', 'ja_JP.UTF-8'), ('SSH_AGENT_PID', '2443'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rover/ros2_ws/install/realsense2_camera/lib:/home/rover/ros2_ws/install/realsense2_camera_msgs/lib:/home/rover/ros2_ws/install/nav2_bt_dummy/lib:/home/rover/ros2_ws/install/nav2_amcl/lib:/home/rover/uros_ws/install/micro_ros_agent/lib:/home/rover/uros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rover'), ('OLDPWD', '/home/rover/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-5KDAzw5RRB,guid=d805b47307e8319a5a3e930b695924cf'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rover/ros2_ws/install:/home/rover/uros_ws/install'), ('ROS_DISTRO', 'humble'), ('VGL_PROBEGLX', '0'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rover'), ('FONT_ENCODINGS_DIRECTORY', '/usr/share/fonts/X11/encodings'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rover-NUC14RVK-B:@/tmp/.ICE-unix/2358,unix/rover-NUC14RVK-B:/tmp/.ICE-unix/2358'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42d117d9_c8c0_4f81_bf92_0a6d93934737'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('VGL_COMPRESS', '0'), ('DISPLAY', ':1'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.76'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '20'), ('AMENT_PREFIX_PATH', '/home/rover/ros2_ws/install/ydlidar_ros2_driver:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/rf2o_laser_odometry:/home/rover/ros2_ws/install/realsense2_description:/home/rover/ros2_ws/install/realsense2_camera:/home/rover/ros2_ws/install/realsense2_camera_msgs:/home/rover/ros2_ws/install/nav2_bt_dummy:/home/rover/ros2_ws/install/nav2_amcl:/home/rover/ros2_ws/install/my_scan_merger:/home/rover/ros2_ws/install/megarover3:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_navigation:/home/rover/ros2_ws/install/megarover3_bringup:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/home/rover/uros_ws/install/micro_ros_setup:/home/rover/uros_ws/install/micro_ros_agent:/home/rover/uros_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rover/ros2_ws/build/nav2_amcl'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SSH_CONNECTION', '172.20.10.6 51865 172.20.10.2 22'), ('DBUS_STARTER_ADDRESS', 'unix:abstract=/tmp/dbus-5KDAzw5RRB,guid=d805b47307e8319a5a3e930b695924cf'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/rover/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rover/ros2_ws/install/wall_ransac_initializer/lib/python3.10/site-packages:/home/rover/ros2_ws/build/udp_bridge:/home/rover/ros2_ws/install/udp_bridge/lib/python3.10/site-packages:/home/rover/ros2_ws/build/trajectory_logger:/home/rover/ros2_ws/install/trajectory_logger/lib/python3.10/site-packages:/home/rover/ros2_ws/install/shelf_navigator/lib/python3.10/site-packages:/home/rover/ros2_ws/build/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/ros2_to_ros1_bridge/lib/python3.10/site-packages:/home/rover/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/rover/ros2_ws/build/js0_teleop:/home/rover/ros2_ws/install/js0_teleop/lib/python3.10/site-packages:/home/rover/ros2_ws/build/iai_cylinder:/home/rover/ros2_ws/install/iai_cylinder/lib/python3.10/site-packages:/home/rover/ros2_ws/build/final_approach_controller:/home/rover/ros2_ws/install/final_approach_controller/lib/python3.10/site-packages:/home/rover/ros2_ws/build/arrow_key_teleop:/home/rover/ros2_ws/install/arrow_key_teleop/lib/python3.10/site-packages:/home/rover/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rover/ros2_ws/install/ydlidar_ros2_driver:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/rf2o_laser_odometry:/home/rover/ros2_ws/install/realsense2_description:/home/rover/ros2_ws/install/realsense2_camera:/home/rover/ros2_ws/install/realsense2_camera_msgs:/home/rover/ros2_ws/install/nav2_bt_dummy:/home/rover/ros2_ws/install/nav2_amcl:/home/rover/ros2_ws/install/my_scan_merger:/home/rover/ros2_ws/install/megarover3:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_navigation:/home/rover/ros2_ws/install/megarover3_bringup:/home/rover/uros_ws/install/micro_ros_setup:/home/rover/uros_ws/install/micro_ros_agent:/home/rover/uros_ws/install/micro_ros_msgs:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/opt/ros/humble')]), 'shell': False}
+[26.424575] (nav2_amcl) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[26.424700] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/lib/libamcl_core.so\n'}
+[26.426578] (nav2_amcl) StdoutLine: {'line': b'-- Set runtime path of "/home/rover/ros2_ws/install/nav2_amcl/lib/libamcl_core.so" to ""\n'}
+[26.426665] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/lib/nav2_amcl/amcl\n'}
+[26.426751] (nav2_amcl) StdoutLine: {'line': b'-- Set runtime path of "/home/rover/ros2_ws/install/nav2_amcl/lib/nav2_amcl/amcl" to ""\n'}
+[26.426810] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/include/\n'}
+[26.426870] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/include//nav2_amcl\n'}
+[26.426949] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/include//nav2_amcl/angleutils.hpp\n'}
+[26.426992] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/include//nav2_amcl/portable_utils.hpp\n'}
+[26.427033] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/include//nav2_amcl/pf\n'}
+[26.427072] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_vector.hpp\n'}
+[26.427128] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_pdf.hpp\n'}
+[26.427211] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/include//nav2_amcl/pf/pf.hpp\n'}
+[26.427256] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/include//nav2_amcl/pf/eig3.hpp\n'}
+[26.427297] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_kdtree.hpp\n'}
+[26.427337] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/include//nav2_amcl/motion_model\n'}
+[26.427376] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/include//nav2_amcl/motion_model/omni_motion_model.hpp\n'}
+[26.427463] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/include//nav2_amcl/motion_model/motion_model.hpp\n'}
+[26.427514] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/include//nav2_amcl/motion_model/differential_motion_model.hpp\n'}
+[26.427554] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/include//nav2_amcl/sensors\n'}
+[26.427593] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/include//nav2_amcl/sensors/laser\n'}
+[26.427632] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/include//nav2_amcl/sensors/laser/laser.hpp\n'}
+[26.427670] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/include//nav2_amcl/map\n'}
+[26.427707] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/include//nav2_amcl/map/map.hpp\n'}
+[26.427773] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/include//nav2_amcl/amcl_node.hpp\n'}
+[26.427811] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/nav2_amcl/environment/library_path.sh\n'}
+[26.427849] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/nav2_amcl/environment/library_path.dsv\n'}
+[26.427885] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/nav2_amcl/plugins.xml\n'}
+[26.427923] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/ament_index/resource_index/package_run_dependencies/nav2_amcl\n'}
+[26.427961] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/ament_index/resource_index/parent_prefix_path/nav2_amcl\n'}
+[26.428029] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.sh\n'}
+[26.428085] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.dsv\n'}
+[26.428124] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/nav2_amcl/environment/path.sh\n'}
+[26.428170] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/nav2_amcl/environment/path.dsv\n'}
+[26.428209] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.bash\n'}
+[26.428247] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.sh\n'}
+[26.428283] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.zsh\n'}
+[26.428320] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.dsv\n'}
+[26.428374] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/nav2_amcl/package.dsv\n'}
+[26.428452] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/ament_index/resource_index/packages/nav2_amcl\n'}
+[26.428492] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/ament_index/resource_index/nav2_amcl__pluginlib__plugin/nav2_amcl\n'}
+[26.428531] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/ament_index/resource_index/rclcpp_components/nav2_amcl\n'}
+[26.428567] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[26.428603] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[26.428639] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[26.428692] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig.cmake\n'}
+[26.428755] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig-version.cmake\n'}
+[26.428791] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/share/nav2_amcl/package.xml\n'}
+[26.428824] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/lib/libpf_lib.so\n'}
+[26.428877] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/lib/libmap_lib.so\n'}
+[26.428986] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/lib/libmotions_lib.so\n'}
+[26.429119] (nav2_amcl) StdoutLine: {'line': b'-- Set runtime path of "/home/rover/ros2_ws/install/nav2_amcl/lib/libmotions_lib.so" to ""\n'}
+[26.429223] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/rover/ros2_ws/install/nav2_amcl/lib/libsensors_lib.so\n'}
+[26.429346] (nav2_amcl) StdoutLine: {'line': b'-- Set runtime path of "/home/rover/ros2_ws/install/nav2_amcl/lib/libsensors_lib.so" to ""\n'}
+[26.430547] (nav2_amcl) CommandEnded: {'returncode': 0}
+[26.441737] (nav2_amcl) JobEnded: {'identifier': 'nav2_amcl', 'rc': 0}
+[26.442074] (-) EventReactorShutdown: {}

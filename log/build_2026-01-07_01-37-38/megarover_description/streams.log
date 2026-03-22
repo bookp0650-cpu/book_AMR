@@ -1,0 +1,47 @@
+[0.066s] Invoking command in '/home/rover/ros2_ws/build/megarover_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/opt/ros/humble /usr/bin/cmake /home/rover/ros2_ws/src/megarover3_ros2/megarover_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rover/ros2_ws/install/megarover_description
+[1.594s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.594s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.594s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.594s] -- Configuring done
+[1.594s] -- Generating done
+[1.594s] -- Build files have been written to: /home/rover/ros2_ws/build/megarover_description
+[1.604s] Invoked command in '/home/rover/ros2_ws/build/megarover_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/opt/ros/humble /usr/bin/cmake /home/rover/ros2_ws/src/megarover3_ros2/megarover_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rover/ros2_ws/install/megarover_description
+[1.605s] Invoking command in '/home/rover/ros2_ws/build/megarover_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/rover/ros2_ws/build/megarover_description -- -j18 -l18
+[1.665s] Invoked command in '/home/rover/ros2_ws/build/megarover_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/rover/ros2_ws/build/megarover_description -- -j18 -l18
+[1.667s] Invoking command in '/home/rover/ros2_ws/build/megarover_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/opt/ros/humble /usr/bin/cmake --install /home/rover/ros2_ws/build/megarover_description
+[1.671s] -- Install configuration: ""
+[1.677s] -- Execute custom install script
+[1.677s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/launch/f120a_view.launch.py
+[1.684s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/launch/mega3_view.launch.py
+[1.700s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/meshes/f120a/base_link.stl
+[1.709s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/meshes/f120a/left_wheel_1.stl
+[1.722s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/meshes/f120a/right_wheel_1.stl
+[1.732s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/meshes/mega3/base_link.stl
+[1.745s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/meshes/mega3/left_wheel_1.stl
+[1.758s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/meshes/mega3/right_wheel_1.stl
+[1.760s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/rviz/f120a.rviz
+[1.772s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/rviz/mega3.rviz
+[1.783s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/urdf/f120a.gazebo
+[1.792s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/urdf/f120a.xacro
+[1.810s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/urdf/f120a_base_model.gazebo
+[1.820s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/urdf/f120a_base_model.xacro
+[1.840s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/urdf/materials.xacro
+[1.850s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/urdf/mega3.gazebo
+[1.866s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/urdf/mega3.xacro
+[1.876s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/urdf/mega3_base_model.gazebo
+[1.889s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/urdf/mega3_base_model.xacro
+[1.902s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/ament_index/resource_index/package_run_dependencies/megarover_description
+[1.916s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/ament_index/resource_index/parent_prefix_path/megarover_description
+[1.929s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/environment/ament_prefix_path.sh
+[1.941s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/environment/ament_prefix_path.dsv
+[1.955s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/environment/path.sh
+[1.968s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/environment/path.dsv
+[1.982s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/local_setup.bash
+[1.997s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/local_setup.sh
+[2.013s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/local_setup.zsh
+[2.026s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/local_setup.dsv
+[2.044s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/package.dsv
+[2.058s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/ament_index/resource_index/packages/megarover_description
+[2.079s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/cmake/megarover_descriptionConfig.cmake
+[2.097s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/cmake/megarover_descriptionConfig-version.cmake
+[2.111s] -- Symlinking: /home/rover/ros2_ws/install/megarover_description/share/megarover_description/package.xml

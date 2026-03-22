@@ -1,0 +1,201 @@
+[0.000000] (-) TimerEvent: {}
+[0.000207] (-) JobUnselected: {'identifier': 'amr_log'}
+[0.000229] (-) JobUnselected: {'identifier': 'arrow_key_teleop'}
+[0.000238] (-) JobUnselected: {'identifier': 'final_approach_controller'}
+[0.000245] (-) JobUnselected: {'identifier': 'iai_cylinder'}
+[0.000253] (-) JobUnselected: {'identifier': 'js0_teleop'}
+[0.000259] (-) JobUnselected: {'identifier': 'megarover3'}
+[0.000266] (-) JobUnselected: {'identifier': 'megarover3_bringup'}
+[0.000272] (-) JobUnselected: {'identifier': 'megarover3_navigation'}
+[0.000279] (-) JobUnselected: {'identifier': 'megarover_description'}
+[0.000285] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.000291] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.000298] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.000305] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.000311] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.000318] (-) JobUnselected: {'identifier': 'ros2_to_ros1_bridge'}
+[0.000325] (-) JobUnselected: {'identifier': 'shelf_navigator'}
+[0.000331] (-) JobUnselected: {'identifier': 'trajectory_logger'}
+[0.000507] (-) JobUnselected: {'identifier': 'udp_bridge'}
+[0.000518] (-) JobUnselected: {'identifier': 'vs_rover_options_description'}
+[0.000526] (-) JobUnselected: {'identifier': 'wall_ransac_initializer'}
+[0.000533] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.000542] (my_scan_merger) JobQueued: {'identifier': 'my_scan_merger', 'dependencies': OrderedDict()}
+[0.000804] (my_scan_merger) JobStarted: {'identifier': 'my_scan_merger'}
+[0.008894] (my_scan_merger) JobProgress: {'identifier': 'my_scan_merger', 'progress': 'cmake'}
+[0.010489] (my_scan_merger) JobProgress: {'identifier': 'my_scan_merger', 'progress': 'build'}
+[0.011326] (my_scan_merger) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rover/ros2_ws/build/my_scan_merger', '--', '-j18', '-l18'], 'cwd': '/home/rover/ros2_ws/build/my_scan_merger', 'env': OrderedDict([('VNCDESKTOP', 'TurboVNC: rover-NUC14RVK-B:1 (rover)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'rover'), ('LC_TIME', 'ja_JP.UTF-8'), ('SSH_AGENT_PID', '1711'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rover/uros_ws/install/micro_ros_agent/lib:/home/rover/uros_ws/install/micro_ros_msgs/lib:/home/rover/ros2_ws/install/realsense2_camera/lib:/home/rover/ros2_ws/install/realsense2_camera_msgs/lib:/home/rover/ros2_ws/install/nav2_amcl/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rover'), ('OLDPWD', '/home/rover'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '815'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-B37XlQyPCX,guid=03b6f670789c8388c8fa454069be39cc'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rover/ros2_ws/install:/home/rover/uros_ws/install'), ('ROS_DISTRO', 'humble'), ('VGL_PROBEGLX', '0'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rover'), ('FONT_ENCODINGS_DIRECTORY', '/usr/share/fonts/X11/encodings'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rover-NUC14RVK-B:@/tmp/.ICE-unix/1529,unix/rover-NUC14RVK-B:/tmp/.ICE-unix/1529'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af055993_49bc_4ed7_9b18_1a870fdd09e0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('VGL_COMPRESS', '0'), ('DISPLAY', ':1'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/rover/uros_ws/install/micro_ros_setup:/home/rover/uros_ws/install/micro_ros_agent:/home/rover/uros_ws/install/micro_ros_msgs:/home/rover/ros2_ws/install/ydlidar_ros2_driver:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/rf2o_laser_odometry:/home/rover/ros2_ws/install/realsense2_description:/home/rover/ros2_ws/install/realsense2_camera:/home/rover/ros2_ws/install/realsense2_camera_msgs:/home/rover/ros2_ws/install/nav2_amcl:/home/rover/ros2_ws/install/my_scan_merger:/home/rover/ros2_ws/install/megarover3:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_navigation:/home/rover/ros2_ws/install/megarover3_bringup:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/home/rover/ros2_ws/install/amr_log:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rover/ros2_ws/build/my_scan_merger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/rover/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rover/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/rover/ros2_ws/install/wall_ransac_initializer/lib/python3.10/site-packages:/home/rover/ros2_ws/install/udp_bridge/lib/python3.10/site-packages:/home/rover/ros2_ws/install/trajectory_logger/lib/python3.10/site-packages:/home/rover/ros2_ws/install/shelf_navigator/lib/python3.10/site-packages:/home/rover/ros2_ws/install/ros2_to_ros1_bridge/lib/python3.10/site-packages:/home/rover/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/rover/ros2_ws/install/js0_teleop/lib/python3.10/site-packages:/home/rover/ros2_ws/install/iai_cylinder/lib/python3.10/site-packages:/home/rover/ros2_ws/install/final_approach_controller/lib/python3.10/site-packages:/home/rover/ros2_ws/install/arrow_key_teleop/lib/python3.10/site-packages:/home/rover/ros2_ws/install/amr_log/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rover/uros_ws/install/micro_ros_setup:/home/rover/uros_ws/install/micro_ros_agent:/home/rover/uros_ws/install/micro_ros_msgs:/home/rover/ros2_ws/install/ydlidar_ros2_driver:/home/rover/ros2_ws/install/rf2o_laser_odometry:/home/rover/ros2_ws/install/realsense2_description:/home/rover/ros2_ws/install/realsense2_camera:/home/rover/ros2_ws/install/realsense2_camera_msgs:/home/rover/ros2_ws/install/nav2_amcl:/home/rover/ros2_ws/install/my_scan_merger:/home/rover/ros2_ws/install/megarover3:/home/rover/ros2_ws/install/megarover3_bringup:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_navigation:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/home/rover/ros2_ws/install/amr_log:/opt/ros/humble')]), 'shell': False}
+[0.072026] (my_scan_merger) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target scan_merger\x1b[0m\n'}
+[0.095055] (my_scan_merger) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o\x1b[0m\n'}
+[0.099769] (-) TimerEvent: {}
+[0.200043] (-) TimerEvent: {}
+[0.300432] (-) TimerEvent: {}
+[0.400827] (-) TimerEvent: {}
+[0.501147] (-) TimerEvent: {}
+[0.601640] (-) TimerEvent: {}
+[0.702007] (-) TimerEvent: {}
+[0.802350] (-) TimerEvent: {}
+[0.902691] (-) TimerEvent: {}
+[1.003033] (-) TimerEvent: {}
+[1.103403] (-) TimerEvent: {}
+[1.203746] (-) TimerEvent: {}
+[1.304097] (-) TimerEvent: {}
+[1.404536] (-) TimerEvent: {}
+[1.504967] (-) TimerEvent: {}
+[1.605517] (-) TimerEvent: {}
+[1.705950] (-) TimerEvent: {}
+[1.806408] (-) TimerEvent: {}
+[1.906745] (-) TimerEvent: {}
+[2.007150] (-) TimerEvent: {}
+[2.107492] (-) TimerEvent: {}
+[2.207836] (-) TimerEvent: {}
+[2.308193] (-) TimerEvent: {}
+[2.408551] (-) TimerEvent: {}
+[2.508893] (-) TimerEvent: {}
+[2.609243] (-) TimerEvent: {}
+[2.709569] (-) TimerEvent: {}
+[2.809981] (-) TimerEvent: {}
+[2.910267] (-) TimerEvent: {}
+[3.010602] (-) TimerEvent: {}
+[3.110954] (-) TimerEvent: {}
+[3.211302] (-) TimerEvent: {}
+[3.311652] (-) TimerEvent: {}
+[3.411986] (-) TimerEvent: {}
+[3.512339] (-) TimerEvent: {}
+[3.612681] (-) TimerEvent: {}
+[3.713018] (-) TimerEvent: {}
+[3.813444] (-) TimerEvent: {}
+[3.913773] (-) TimerEvent: {}
+[4.014104] (-) TimerEvent: {}
+[4.114502] (-) TimerEvent: {}
+[4.214902] (-) TimerEvent: {}
+[4.315226] (-) TimerEvent: {}
+[4.415525] (-) TimerEvent: {}
+[4.515838] (-) TimerEvent: {}
+[4.616231] (-) TimerEvent: {}
+[4.716590] (-) TimerEvent: {}
+[4.816930] (-) TimerEvent: {}
+[4.917263] (-) TimerEvent: {}
+[5.017568] (-) TimerEvent: {}
+[5.117903] (-) TimerEvent: {}
+[5.218279] (-) TimerEvent: {}
+[5.318627] (-) TimerEvent: {}
+[5.418992] (-) TimerEvent: {}
+[5.519395] (-) TimerEvent: {}
+[5.619709] (-) TimerEvent: {}
+[5.720072] (-) TimerEvent: {}
+[5.820485] (-) TimerEvent: {}
+[5.920794] (-) TimerEvent: {}
+[6.021109] (-) TimerEvent: {}
+[6.121446] (-) TimerEvent: {}
+[6.221817] (-) TimerEvent: {}
+[6.322236] (-) TimerEvent: {}
+[6.422561] (-) TimerEvent: {}
+[6.522997] (-) TimerEvent: {}
+[6.623348] (-) TimerEvent: {}
+[6.723664] (-) TimerEvent: {}
+[6.823989] (-) TimerEvent: {}
+[6.924316] (-) TimerEvent: {}
+[7.024633] (-) TimerEvent: {}
+[7.124953] (-) TimerEvent: {}
+[7.225286] (-) TimerEvent: {}
+[7.325548] (-) TimerEvent: {}
+[7.425914] (-) TimerEvent: {}
+[7.526346] (-) TimerEvent: {}
+[7.626678] (-) TimerEvent: {}
+[7.727001] (-) TimerEvent: {}
+[7.827334] (-) TimerEvent: {}
+[7.927699] (-) TimerEvent: {}
+[8.028097] (-) TimerEvent: {}
+[8.128440] (-) TimerEvent: {}
+[8.228759] (-) TimerEvent: {}
+[8.329101] (-) TimerEvent: {}
+[8.429429] (-) TimerEvent: {}
+[8.529742] (-) TimerEvent: {}
+[8.630078] (-) TimerEvent: {}
+[8.730433] (-) TimerEvent: {}
+[8.830768] (-) TimerEvent: {}
+[8.931099] (-) TimerEvent: {}
+[9.031450] (-) TimerEvent: {}
+[9.131815] (-) TimerEvent: {}
+[9.154967] (my_scan_merger) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable scan_merger\x1b[0m\n'}
+[9.231942] (-) TimerEvent: {}
+[9.332309] (-) TimerEvent: {}
+[9.432689] (-) TimerEvent: {}
+[9.533055] (-) TimerEvent: {}
+[9.619339] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: warning: relocation against `_ZTVN4YAML13BadConversionE' in read-only section `.text._ZN4YAML13BadConversionC2ERKNS_4MarkE[_ZN4YAML13BadConversionC5ERKNS_4MarkE]'\n"}
+[9.633165] (-) TimerEvent: {}
+[9.648953] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `YAML::Exception::Exception(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[9.649303] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZN4YAML9ExceptionC2ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML9ExceptionC5ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x61): undefined reference to `vtable for YAML::Exception'\n"}
+[9.650068] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `YAML::RepresentationException::RepresentationException(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[9.650271] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZN4YAML23RepresentationExceptionC2ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML23RepresentationExceptionC5ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x32): undefined reference to `vtable for YAML::RepresentationException'\n"}
+[9.650955] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `YAML::InvalidNode::InvalidNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[9.651082] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZN4YAML11InvalidNodeC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML11InvalidNodeC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x71): undefined reference to `vtable for YAML::InvalidNode'\n"}
+[9.651911] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `YAML::BadConversion::BadConversion(YAML::Mark const&)':\n"}
+[9.652047] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZN4YAML13BadConversionC2ERKNS_4MarkE[_ZN4YAML13BadConversionC5ERKNS_4MarkE]+0x7c): undefined reference to `vtable for YAML::BadConversion'\n"}
+[9.652755] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `YAML::detail::memory_holder::create_node()':\n"}
+[9.652838] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZN4YAML6detail13memory_holder11create_nodeEv[_ZN4YAML6detail13memory_holder11create_nodeEv]+0x20): undefined reference to `YAML::detail::memory::create_node()'\n"}
+[9.653685] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `YAML::detail::node_ref::mark_defined()':\n"}
+[9.653836] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZN4YAML6detail8node_ref12mark_definedEv[_ZN4YAML6detail8node_ref12mark_definedEv]+0x20): undefined reference to `YAML::detail::node_data::mark_defined()'\n"}
+[9.654563] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `YAML::detail::node_ref::set_null()':\n"}
+[9.654710] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZN4YAML6detail8node_ref8set_nullEv[_ZN4YAML6detail8node_ref8set_nullEv]+0x20): undefined reference to `YAML::detail::node_data::set_null()'\n"}
+[9.655336] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `YAML::detail::node_ref::set_scalar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[9.655497] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZN4YAML6detail8node_ref10set_scalarERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML6detail8node_ref10set_scalarERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x2e): undefined reference to `YAML::detail::node_data::set_scalar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[9.656260] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `YAML::detail::node_ref::begin()':\n"}
+[9.656391] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZN4YAML6detail8node_ref5beginEv[_ZN4YAML6detail8node_ref5beginEv]+0x3d): undefined reference to `YAML::detail::node_data::begin()'\n"}
+[9.656948] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `YAML::detail::node_ref::end()':\n"}
+[9.657007] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZN4YAML6detail8node_ref3endEv[_ZN4YAML6detail8node_ref3endEv]+0x3d): undefined reference to `YAML::detail::node_data::end()'\n"}
+[9.657722] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `YAML::Node::EnsureNodeExists() const':\n"}
+[9.657780] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[9.658154] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: scan_merger.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[9.659003] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `YAML::Node::Mark() const':\n"}
+[9.659214] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZNK4YAML4Node4MarkEv[_ZNK4YAML4Node4MarkEv]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[9.659602] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: scan_merger.cpp:(.text._ZNK4YAML4Node4MarkEv[_ZNK4YAML4Node4MarkEv]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[9.660261] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `YAML::Node::Type() const':\n"}
+[9.660360] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZNK4YAML4Node4TypeEv[_ZNK4YAML4Node4TypeEv]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[9.661031] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: scan_merger.cpp:(.text._ZNK4YAML4Node4TypeEv[_ZNK4YAML4Node4TypeEv]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[9.661766] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `YAML::Node::Scalar[abi:cxx11]() const':\n"}
+[9.661838] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[9.662382] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: scan_merger.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[9.663018] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: scan_merger.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x7d): undefined reference to `YAML::detail::node_data::empty_scalar[abi:cxx11]()'\n"}
+[9.663907] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `ScanMerger::ScanMerger()':\n"}
+[9.663992] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZN10ScanMergerC2Ev[_ZN10ScanMergerC5Ev]+0xa43): undefined reference to `YAML::LoadFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[9.665154] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `int YAML::Node::as<int>() const':\n"}
+[9.665249] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZNK4YAML4Node2asIiEET_v[_ZNK4YAML4Node2asIiEET_v]+0x53): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[9.665866] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: scan_merger.cpp:(.text._ZNK4YAML4Node2asIiEET_v[_ZNK4YAML4Node2asIiEET_v]+0x5d): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[9.666705] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `float YAML::Node::as<float>() const':\n"}
+[9.666744] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZNK4YAML4Node2asIfEET_v[_ZNK4YAML4Node2asIfEET_v]+0x53): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[9.667355] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: scan_merger.cpp:(.text._ZNK4YAML4Node2asIfEET_v[_ZNK4YAML4Node2asIfEET_v]+0x5d): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[9.668324] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `YAML::TypedBadConversion<int>::~TypedBadConversion()':\n"}
+[9.668372] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZN4YAML18TypedBadConversionIiED2Ev[_ZN4YAML18TypedBadConversionIiED5Ev]+0x26): undefined reference to `YAML::BadConversion::~BadConversion()'\n"}
+[9.669137] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `YAML::TypedBadConversion<float>::~TypedBadConversion()':\n"}
+[9.669187] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZN4YAML18TypedBadConversionIfED2Ev[_ZN4YAML18TypedBadConversionIfED5Ev]+0x26): undefined reference to `YAML::BadConversion::~BadConversion()'\n"}
+[9.670234] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::get<char [6]>(char const (&) [6], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[9.670268] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZN4YAML6detail9node_data3getIA6_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA6_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xd3): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'\n"}
+[9.670843] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: scan_merger.cpp:(.text._ZN4YAML6detail9node_data3getIA6_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA6_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x103): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[9.671373] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: scan_merger.cpp:(.text._ZN4YAML6detail9node_data3getIA6_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA6_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10d): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[9.671925] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: scan_merger.cpp:(.text._ZN4YAML6detail9node_data3getIA6_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA6_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x1fb): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'\n"}
+[9.672603] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::get<char [9]>(char const (&) [9], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[9.672657] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xd3): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'\n"}
+[9.673131] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: scan_merger.cpp:(.text._ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x103): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[9.673623] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: scan_merger.cpp:(.text._ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10d): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[9.674101] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: scan_merger.cpp:(.text._ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x1fb): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'\n"}
+[9.674967] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [6]>(YAML::Mark const&, char const (&) [6])':\n"}
+[9.675024] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZN4YAML12BadSubscriptC2IA6_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA6_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'\n"}
+[9.675653] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::convert_to_node<char [6]>(char const (&) [6], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[9.675701] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeIA6_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data15convert_to_nodeIA6_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x69): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'\n"}
+[9.676286] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [9]>(YAML::Mark const&, char const (&) [9])':\n"}
+[9.676327] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZN4YAML12BadSubscriptC2IA9_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA9_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'\n"}
+[9.676972] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::convert_to_node<char [9]>(char const (&) [9], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[9.677002] (my_scan_merger) StderrLine: {'line': b"scan_merger.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data15convert_to_nodeIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x69): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'\n"}
+[9.682167] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o:(.data.rel.ro._ZTIN4YAML18TypedBadConversionIfEE[_ZTIN4YAML18TypedBadConversionIfEE]+0x10): undefined reference to `typeinfo for YAML::BadConversion'\n"}
+[9.682940] (my_scan_merger) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o:(.data.rel.ro._ZTIN4YAML18TypedBadConversionIiEE[_ZTIN4YAML18TypedBadConversionIiEE]+0x10): undefined reference to `typeinfo for YAML::BadConversion'\n"}
+[9.710654] (my_scan_merger) StderrLine: {'line': b'/usr/bin/ld: warning: creating DT_TEXTREL in a PIE\n'}
+[9.714277] (my_scan_merger) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[9.716360] (my_scan_merger) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/scan_merger.dir/build.make:206: scan_merger] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 1\n'}
+[9.716900] (my_scan_merger) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/scan_merger.dir/all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[9.717251] (my_scan_merger) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[9.720175] (my_scan_merger) CommandEnded: {'returncode': 2}
+[9.731342] (my_scan_merger) JobEnded: {'identifier': 'my_scan_merger', 'rc': 2}
+[9.733229] (-) TimerEvent: {}
+[9.741543] (-) EventReactorShutdown: {}

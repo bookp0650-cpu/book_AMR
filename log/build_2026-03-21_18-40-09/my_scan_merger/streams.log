@@ -1,0 +1,45 @@
+[0.009s] Invoking command in '/home/rover/ros2_ws/build/my_scan_merger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_navigation:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/home/rover/ros2_ws/install/amr_log:/opt/ros/humble /usr/bin/cmake --build /home/rover/ros2_ws/build/my_scan_merger -- -j18 -l18
+[0.034s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.124s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.133s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.157s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.159s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.164s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.171s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.182s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.207s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.209s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.223s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.259s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.279s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[0.282s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.340s] -- Found tf2_geometry_msgs: 0.25.17 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.343s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.344s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.395s] -- Configuring done
+[0.403s] -- Generating done
+[0.405s] -- Build files have been written to: /home/rover/ros2_ws/build/my_scan_merger
+[0.425s] [35m[1mConsolidate compiler generated dependencies of target scan_merger[0m
+[0.440s] [ 50%] [32m[1mLinking CXX executable scan_merger[0m
+[0.926s] [100%] Built target scan_merger
+[0.936s] Invoked command in '/home/rover/ros2_ws/build/my_scan_merger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_navigation:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/home/rover/ros2_ws/install/amr_log:/opt/ros/humble /usr/bin/cmake --build /home/rover/ros2_ws/build/my_scan_merger -- -j18 -l18
+[0.944s] Invoking command in '/home/rover/ros2_ws/build/my_scan_merger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_navigation:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/home/rover/ros2_ws/install/amr_log:/opt/ros/humble /usr/bin/cmake --install /home/rover/ros2_ws/build/my_scan_merger
+[0.950s] -- Install configuration: ""
+[0.950s] -- Execute custom install script
+[0.950s] -- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/lib/my_scan_merger/scan_merger
+[0.950s] -- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/ament_index/resource_index/package_run_dependencies/my_scan_merger
+[0.951s] -- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/ament_index/resource_index/parent_prefix_path/my_scan_merger
+[0.951s] -- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/environment/ament_prefix_path.sh
+[0.951s] -- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/environment/ament_prefix_path.dsv
+[0.951s] -- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/environment/path.sh
+[0.951s] -- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/environment/path.dsv
+[0.951s] -- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/local_setup.bash
+[0.951s] -- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/local_setup.sh
+[0.951s] -- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/local_setup.zsh
+[0.951s] -- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/local_setup.dsv
+[0.951s] -- Symlinking: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/package.dsv
+[0.957s] -- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/ament_index/resource_index/packages/my_scan_merger
+[0.958s] -- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/cmake/my_scan_mergerConfig.cmake
+[0.958s] -- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/cmake/my_scan_mergerConfig-version.cmake
+[0.958s] -- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/package.xml
+[0.959s] Invoked command in '/home/rover/ros2_ws/build/my_scan_merger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_navigation:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/home/rover/ros2_ws/install/amr_log:/opt/ros/humble /usr/bin/cmake --install /home/rover/ros2_ws/build/my_scan_merger

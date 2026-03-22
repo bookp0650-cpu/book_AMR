@@ -1,0 +1,37 @@
+[2.081s] Invoking command in '/home/rover/ros2_ws/src/js0_teleop': PYTHONPATH=/home/rover/ros2_ws/build/js0_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/ros2_ws/install/js0_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/js0_teleop build --build-base /home/rover/ros2_ws/build/js0_teleop/build install --record /home/rover/ros2_ws/build/js0_teleop/install.log --single-version-externally-managed install_data
+[2.385s] running egg_info
+[2.386s] creating ../../build/js0_teleop/js0_teleop.egg-info
+[2.386s] writing ../../build/js0_teleop/js0_teleop.egg-info/PKG-INFO
+[2.386s] writing dependency_links to ../../build/js0_teleop/js0_teleop.egg-info/dependency_links.txt
+[2.386s] writing entry points to ../../build/js0_teleop/js0_teleop.egg-info/entry_points.txt
+[2.387s] writing requirements to ../../build/js0_teleop/js0_teleop.egg-info/requires.txt
+[2.387s] writing top-level names to ../../build/js0_teleop/js0_teleop.egg-info/top_level.txt
+[2.388s] writing manifest file '../../build/js0_teleop/js0_teleop.egg-info/SOURCES.txt'
+[2.389s] reading manifest file '../../build/js0_teleop/js0_teleop.egg-info/SOURCES.txt'
+[2.390s] writing manifest file '../../build/js0_teleop/js0_teleop.egg-info/SOURCES.txt'
+[2.390s] running build
+[2.390s] running build_py
+[2.390s] creating /home/rover/ros2_ws/build/js0_teleop/build
+[2.390s] creating /home/rover/ros2_ws/build/js0_teleop/build/lib
+[2.391s] creating /home/rover/ros2_ws/build/js0_teleop/build/lib/js0_teleop
+[2.391s] copying js0_teleop/js0_teleop_safe.py -> /home/rover/ros2_ws/build/js0_teleop/build/lib/js0_teleop
+[2.393s] copying js0_teleop/__init__.py -> /home/rover/ros2_ws/build/js0_teleop/build/lib/js0_teleop
+[2.397s] running install
+[2.399s] running install_lib
+[2.399s] creating /home/rover/ros2_ws/install/js0_teleop/lib/python3.10/site-packages/js0_teleop
+[2.399s] copying /home/rover/ros2_ws/build/js0_teleop/build/lib/js0_teleop/js0_teleop_safe.py -> /home/rover/ros2_ws/install/js0_teleop/lib/python3.10/site-packages/js0_teleop
+[2.399s] copying /home/rover/ros2_ws/build/js0_teleop/build/lib/js0_teleop/__init__.py -> /home/rover/ros2_ws/install/js0_teleop/lib/python3.10/site-packages/js0_teleop
+[2.399s] byte-compiling /home/rover/ros2_ws/install/js0_teleop/lib/python3.10/site-packages/js0_teleop/js0_teleop_safe.py to js0_teleop_safe.cpython-310.pyc
+[2.399s] byte-compiling /home/rover/ros2_ws/install/js0_teleop/lib/python3.10/site-packages/js0_teleop/__init__.py to __init__.cpython-310.pyc
+[2.400s] running install_data
+[2.400s] creating /home/rover/ros2_ws/install/js0_teleop/share/ament_index
+[2.400s] creating /home/rover/ros2_ws/install/js0_teleop/share/ament_index/resource_index
+[2.400s] creating /home/rover/ros2_ws/install/js0_teleop/share/ament_index/resource_index/packages
+[2.400s] copying resource/js0_teleop -> /home/rover/ros2_ws/install/js0_teleop/share/ament_index/resource_index/packages
+[2.400s] copying package.xml -> /home/rover/ros2_ws/install/js0_teleop/share/js0_teleop
+[2.400s] running install_egg_info
+[2.400s] Copying ../../build/js0_teleop/js0_teleop.egg-info to /home/rover/ros2_ws/install/js0_teleop/lib/python3.10/site-packages/js0_teleop-0.0.0-py3.10.egg-info
+[2.401s] running install_scripts
+[2.434s] Installing js0_teleop script to /home/rover/ros2_ws/install/js0_teleop/lib/js0_teleop
+[2.436s] writing list of installed files to '/home/rover/ros2_ws/build/js0_teleop/install.log'
+[2.475s] Invoked command in '/home/rover/ros2_ws/src/js0_teleop' returned '0': PYTHONPATH=/home/rover/ros2_ws/build/js0_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/ros2_ws/install/js0_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/js0_teleop build --build-base /home/rover/ros2_ws/build/js0_teleop/build install --record /home/rover/ros2_ws/build/js0_teleop/install.log --single-version-externally-managed install_data

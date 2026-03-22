@@ -1,0 +1,73 @@
+[0.705s] Invoking command in '/home/rover/ros2_ws/build/megarover3_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/opt/ros/humble /usr/bin/cmake /home/rover/ros2_ws/src/megarover3_ros2/megarover3_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rover/ros2_ws/install/megarover3_navigation
+[1.567s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.568s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.569s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.569s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.569s] -- Added test 'lint_cmake' to check CMake code style
+[1.569s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.569s] -- Added test 'xmllint' to check XML markup files
+[1.569s] -- Configuring done
+[1.570s] -- Generating done
+[1.570s] -- Build files have been written to: /home/rover/ros2_ws/build/megarover3_navigation
+[1.581s] Invoked command in '/home/rover/ros2_ws/build/megarover3_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/opt/ros/humble /usr/bin/cmake /home/rover/ros2_ws/src/megarover3_ros2/megarover3_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rover/ros2_ws/install/megarover3_navigation
+[1.583s] Invoking command in '/home/rover/ros2_ws/build/megarover3_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/rover/ros2_ws/build/megarover3_navigation -- -j18 -l18
+[1.626s] Invoked command in '/home/rover/ros2_ws/build/megarover3_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/rover/ros2_ws/build/megarover3_navigation -- -j18 -l18
+[1.636s] Invoking command in '/home/rover/ros2_ws/build/megarover3_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/opt/ros/humble /usr/bin/cmake --install /home/rover/ros2_ws/build/megarover3_navigation
+[1.648s] -- Install configuration: ""
+[1.648s] -- Execute custom install script
+[1.649s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/config/f120a_nav2_paramms.yaml
+[1.658s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/config/f120a_nav2_params.yaml
+[1.670s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/config/mapper_params_online_async.yaml
+[1.681s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/config/mapper_params_online_sync.yaml
+[1.690s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/config/mega3_nav2_params.yaml
+[1.705s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/config/scout_nav2_params.yaml
+[1.717s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/launch/bringup_launch.py
+[1.731s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/launch/gmapping.launch.py
+[1.741s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/launch/localization_launch.py
+[1.753s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/launch/navigation.launch.py
+[1.765s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/launch/navigation_launch.py
+[1.774s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/launch/online_async_launch.py
+[1.787s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/launch/online_sync_launch.py
+[1.801s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/launch/slam.launch.py
+[1.816s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/launch/slam_launch.py
+[1.826s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/launch/slam_sync.launch.py
+[1.837s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/maps/2gokan.pgm
+[1.848s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/maps/2gokan.yaml
+[1.854s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/maps/2gokan1.pgm
+[1.867s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/maps/2gokan1.yaml
+[1.878s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/maps/2gokan3.pgm
+[1.897s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/maps/2gokan3.yaml
+[1.917s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/maps/Lab_map.pgm
+[1.936s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/maps/Lab_map.yaml
+[1.947s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/maps/Lab_map7.pgm
+[1.957s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/maps/Lab_map7.yaml
+[1.967s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/maps/heika_3.pgm
+[1.980s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/maps/heika_3.yaml
+[1.994s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/maps/heika_4.pgm
+[2.006s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/maps/heika_4.yaml
+[2.023s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/maps/heika_5.pgm
+[2.036s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/maps/heika_5.yaml
+[2.048s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/maps/heika_6.pgm
+[2.061s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/maps/heika_6.yaml
+[2.078s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/maps/heika_7.pgm
+[2.091s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/maps/heika_7.yaml
+[2.104s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/maps/heika_map.pgm
+[2.118s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/maps/heika_map.yaml
+[2.130s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/rviz/gmapping.rviz
+[2.145s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/rviz/nav2.rviz
+[2.156s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/rviz/slam.rviz
+[2.171s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/ament_index/resource_index/package_run_dependencies/megarover3_navigation
+[2.187s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/ament_index/resource_index/parent_prefix_path/megarover3_navigation
+[2.202s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/environment/ament_prefix_path.sh
+[2.217s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/environment/ament_prefix_path.dsv
+[2.231s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/environment/path.sh
+[2.244s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/environment/path.dsv
+[2.256s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/local_setup.bash
+[2.264s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/local_setup.sh
+[2.276s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/local_setup.zsh
+[2.285s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/local_setup.dsv
+[2.294s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/package.dsv
+[2.304s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/ament_index/resource_index/packages/megarover3_navigation
+[2.312s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/cmake/megarover3_navigationConfig.cmake
+[2.317s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/cmake/megarover3_navigationConfig-version.cmake
+[2.326s] -- Symlinking: /home/rover/ros2_ws/install/megarover3_navigation/share/megarover3_navigation/package.xml

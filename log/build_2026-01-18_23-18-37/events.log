@@ -1,0 +1,292 @@
+[0.000000] (-) TimerEvent: {}
+[0.000456] (-) JobUnselected: {'identifier': 'amr_log'}
+[0.000487] (-) JobUnselected: {'identifier': 'arrow_key_teleop'}
+[0.000504] (-) JobUnselected: {'identifier': 'final_approach_controller'}
+[0.000516] (-) JobUnselected: {'identifier': 'iai_cylinder'}
+[0.000526] (-) JobUnselected: {'identifier': 'js0_teleop'}
+[0.000538] (-) JobUnselected: {'identifier': 'megarover3'}
+[0.000548] (-) JobUnselected: {'identifier': 'megarover3_bringup'}
+[0.000559] (-) JobUnselected: {'identifier': 'megarover3_navigation'}
+[0.000570] (-) JobUnselected: {'identifier': 'megarover_description'}
+[0.000581] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.000590] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.000601] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.000611] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.000622] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.000633] (-) JobUnselected: {'identifier': 'ros2_to_ros1_bridge'}
+[0.000644] (-) JobUnselected: {'identifier': 'shelf_navigator'}
+[0.000654] (-) JobUnselected: {'identifier': 'trajectory_logger'}
+[0.000665] (-) JobUnselected: {'identifier': 'udp_bridge'}
+[0.000675] (-) JobUnselected: {'identifier': 'vs_rover_options_description'}
+[0.000686] (-) JobUnselected: {'identifier': 'wall_ransac_initializer'}
+[0.000697] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.000710] (my_scan_merger) JobQueued: {'identifier': 'my_scan_merger', 'dependencies': OrderedDict()}
+[0.000725] (my_scan_merger) JobStarted: {'identifier': 'my_scan_merger'}
+[0.015678] (my_scan_merger) JobProgress: {'identifier': 'my_scan_merger', 'progress': 'cmake'}
+[0.017244] (my_scan_merger) JobProgress: {'identifier': 'my_scan_merger', 'progress': 'build'}
+[0.018025] (my_scan_merger) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rover/ros2_ws/build/my_scan_merger', '--', '-j18', '-l18'], 'cwd': '/home/rover/ros2_ws/build/my_scan_merger', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'rover'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rover/uros_ws/install/micro_ros_agent/lib:/home/rover/uros_ws/install/micro_ros_msgs/lib:/home/rover/ros2_ws/install/realsense2_camera/lib:/home/rover/ros2_ws/install/realsense2_camera_msgs/lib:/home/rover/ros2_ws/install/nav2_amcl/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/mesa-diverted/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/mesa:/usr/lib/x86_64-linux-gnu/dri:/usr/lib/x86_64-linux-gnu/gallium-pipe'), ('HOME', '/home/rover'), ('OLDPWD', '/home/rover/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('PULSE_SINK', 'chrome_remote_desktop_session'), ('SYSTEMD_EXEC_PID', '4730'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rover/ros2_ws/install:/home/rover/uros_ws/install'), ('PULSE_STATE_PATH', '/run/user/1000/crd_audio#tALyeGQT6W'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rover'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rover-NUC14RVK-B:@/tmp/.ICE-unix/4168,unix/rover-NUC14RVK-B:/tmp/.ICE-unix/4168'), ('PULSE_RUNTIME_PATH', '/run/user/1000/crd_audio#tALyeGQT6W'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/407b50a5_2bfc_4526_9758_9ce78b96efb7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':20'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/home/rover/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AUTH_SOCK', '/tmp/chromoting.rover.ssh_auth_sock'), ('ROS_DOMAIN_ID', '20'), ('AMENT_PREFIX_PATH', '/home/rover/uros_ws/install/micro_ros_setup:/home/rover/uros_ws/install/micro_ros_agent:/home/rover/uros_ws/install/micro_ros_msgs:/home/rover/ros2_ws/install/ydlidar_ros2_driver:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/rf2o_laser_odometry:/home/rover/ros2_ws/install/realsense2_description:/home/rover/ros2_ws/install/realsense2_camera:/home/rover/ros2_ws/install/realsense2_camera_msgs:/home/rover/ros2_ws/install/nav2_amcl:/home/rover/ros2_ws/install/my_scan_merger:/home/rover/ros2_ws/install/megarover3:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_navigation:/home/rover/ros2_ws/install/megarover3_bringup:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/home/rover/ros2_ws/install/amr_log:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('PULSE_CONFIG_PATH', '/run/user/1000/crd_audio#tALyeGQT6W'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rover/ros2_ws/build/my_scan_merger'), ('CHROME_REMOTE_DESKTOP_SESSION', '1'), ('XDG_DATA_DIRS', '/usr/share/gnome:/home/rover/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rover/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/rover/ros2_ws/install/wall_ransac_initializer/lib/python3.10/site-packages:/home/rover/ros2_ws/install/udp_bridge/lib/python3.10/site-packages:/home/rover/ros2_ws/install/trajectory_logger/lib/python3.10/site-packages:/home/rover/ros2_ws/install/shelf_navigator/lib/python3.10/site-packages:/home/rover/ros2_ws/install/ros2_to_ros1_bridge/lib/python3.10/site-packages:/home/rover/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/rover/ros2_ws/install/js0_teleop/lib/python3.10/site-packages:/home/rover/ros2_ws/install/iai_cylinder/lib/python3.10/site-packages:/home/rover/ros2_ws/install/final_approach_controller/lib/python3.10/site-packages:/home/rover/ros2_ws/install/arrow_key_teleop/lib/python3.10/site-packages:/home/rover/ros2_ws/install/amr_log/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rover/uros_ws/install/micro_ros_setup:/home/rover/uros_ws/install/micro_ros_agent:/home/rover/uros_ws/install/micro_ros_msgs:/home/rover/ros2_ws/install/ydlidar_ros2_driver:/home/rover/ros2_ws/install/rf2o_laser_odometry:/home/rover/ros2_ws/install/realsense2_description:/home/rover/ros2_ws/install/realsense2_camera:/home/rover/ros2_ws/install/realsense2_camera_msgs:/home/rover/ros2_ws/install/nav2_amcl:/home/rover/ros2_ws/install/my_scan_merger:/home/rover/ros2_ws/install/megarover3:/home/rover/ros2_ws/install/megarover3_bringup:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_navigation:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/home/rover/ros2_ws/install/amr_log:/opt/ros/humble')]), 'shell': False}
+[0.099884] (-) TimerEvent: {}
+[0.188167] (my_scan_merger) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target scan_merger\x1b[0m\n'}
+[0.199967] (-) TimerEvent: {}
+[0.217740] (my_scan_merger) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o\x1b[0m\n'}
+[0.300080] (-) TimerEvent: {}
+[0.400555] (-) TimerEvent: {}
+[0.501680] (-) TimerEvent: {}
+[0.602204] (-) TimerEvent: {}
+[0.704165] (-) TimerEvent: {}
+[0.804482] (-) TimerEvent: {}
+[0.905120] (-) TimerEvent: {}
+[1.006178] (-) TimerEvent: {}
+[1.106477] (-) TimerEvent: {}
+[1.206711] (-) TimerEvent: {}
+[1.307077] (-) TimerEvent: {}
+[1.407400] (-) TimerEvent: {}
+[1.508017] (-) TimerEvent: {}
+[1.609287] (-) TimerEvent: {}
+[1.709556] (-) TimerEvent: {}
+[1.809803] (-) TimerEvent: {}
+[1.910089] (-) TimerEvent: {}
+[2.010600] (-) TimerEvent: {}
+[2.111505] (-) TimerEvent: {}
+[2.211784] (-) TimerEvent: {}
+[2.312109] (-) TimerEvent: {}
+[2.412490] (-) TimerEvent: {}
+[2.512922] (-) TimerEvent: {}
+[2.613267] (-) TimerEvent: {}
+[2.713555] (-) TimerEvent: {}
+[2.814802] (-) TimerEvent: {}
+[2.916908] (-) TimerEvent: {}
+[3.017282] (-) TimerEvent: {}
+[3.117780] (-) TimerEvent: {}
+[3.218127] (-) TimerEvent: {}
+[3.318507] (-) TimerEvent: {}
+[3.418889] (-) TimerEvent: {}
+[3.519228] (-) TimerEvent: {}
+[3.620430] (-) TimerEvent: {}
+[3.722408] (-) TimerEvent: {}
+[3.823291] (-) TimerEvent: {}
+[3.925263] (-) TimerEvent: {}
+[4.025671] (-) TimerEvent: {}
+[4.126004] (-) TimerEvent: {}
+[4.226692] (-) TimerEvent: {}
+[4.327534] (-) TimerEvent: {}
+[4.427949] (-) TimerEvent: {}
+[4.528625] (-) TimerEvent: {}
+[4.629341] (-) TimerEvent: {}
+[4.729643] (-) TimerEvent: {}
+[4.829944] (-) TimerEvent: {}
+[4.930455] (-) TimerEvent: {}
+[5.031504] (-) TimerEvent: {}
+[5.132163] (-) TimerEvent: {}
+[5.232739] (-) TimerEvent: {}
+[5.333088] (-) TimerEvent: {}
+[5.433983] (-) TimerEvent: {}
+[5.536158] (-) TimerEvent: {}
+[5.636508] (-) TimerEvent: {}
+[5.736839] (-) TimerEvent: {}
+[5.837212] (-) TimerEvent: {}
+[5.937733] (-) TimerEvent: {}
+[6.040699] (-) TimerEvent: {}
+[6.141082] (-) TimerEvent: {}
+[6.241861] (-) TimerEvent: {}
+[6.342115] (-) TimerEvent: {}
+[6.442401] (-) TimerEvent: {}
+[6.542748] (-) TimerEvent: {}
+[6.643114] (-) TimerEvent: {}
+[6.743543] (-) TimerEvent: {}
+[6.843896] (-) TimerEvent: {}
+[6.944249] (-) TimerEvent: {}
+[7.044979] (-) TimerEvent: {}
+[7.146909] (-) TimerEvent: {}
+[7.247267] (-) TimerEvent: {}
+[7.347555] (-) TimerEvent: {}
+[7.447950] (-) TimerEvent: {}
+[7.548272] (-) TimerEvent: {}
+[7.648663] (-) TimerEvent: {}
+[7.749388] (-) TimerEvent: {}
+[7.851083] (-) TimerEvent: {}
+[7.951406] (-) TimerEvent: {}
+[8.051910] (-) TimerEvent: {}
+[8.152727] (-) TimerEvent: {}
+[8.254683] (-) TimerEvent: {}
+[8.355312] (-) TimerEvent: {}
+[8.457635] (-) TimerEvent: {}
+[8.557979] (-) TimerEvent: {}
+[8.658759] (-) TimerEvent: {}
+[8.760903] (-) TimerEvent: {}
+[8.861224] (-) TimerEvent: {}
+[8.961577] (-) TimerEvent: {}
+[9.062819] (-) TimerEvent: {}
+[9.164667] (-) TimerEvent: {}
+[9.265048] (-) TimerEvent: {}
+[9.365951] (-) TimerEvent: {}
+[9.467785] (-) TimerEvent: {}
+[9.568118] (-) TimerEvent: {}
+[9.668889] (-) TimerEvent: {}
+[9.770735] (-) TimerEvent: {}
+[9.871560] (-) TimerEvent: {}
+[9.973484] (-) TimerEvent: {}
+[10.073878] (-) TimerEvent: {}
+[10.174258] (-) TimerEvent: {}
+[10.274618] (-) TimerEvent: {}
+[10.375186] (-) TimerEvent: {}
+[10.476519] (-) TimerEvent: {}
+[10.576934] (-) TimerEvent: {}
+[10.677830] (-) TimerEvent: {}
+[10.779483] (-) TimerEvent: {}
+[10.879847] (-) TimerEvent: {}
+[10.980206] (-) TimerEvent: {}
+[11.080802] (-) TimerEvent: {}
+[11.181537] (-) TimerEvent: {}
+[11.282034] (-) TimerEvent: {}
+[11.382773] (-) TimerEvent: {}
+[11.483209] (-) TimerEvent: {}
+[11.583569] (-) TimerEvent: {}
+[11.684106] (-) TimerEvent: {}
+[11.784937] (-) TimerEvent: {}
+[11.885457] (-) TimerEvent: {}
+[11.986404] (-) TimerEvent: {}
+[12.087242] (-) TimerEvent: {}
+[12.187663] (-) TimerEvent: {}
+[12.288456] (-) TimerEvent: {}
+[12.388718] (-) TimerEvent: {}
+[12.488972] (-) TimerEvent: {}
+[12.589239] (-) TimerEvent: {}
+[12.689489] (-) TimerEvent: {}
+[12.789753] (-) TimerEvent: {}
+[12.890126] (-) TimerEvent: {}
+[12.990539] (-) TimerEvent: {}
+[13.090871] (-) TimerEvent: {}
+[13.191627] (-) TimerEvent: {}
+[13.293236] (-) TimerEvent: {}
+[13.393561] (-) TimerEvent: {}
+[13.494055] (-) TimerEvent: {}
+[13.594989] (-) TimerEvent: {}
+[13.695294] (-) TimerEvent: {}
+[13.795710] (-) TimerEvent: {}
+[13.896072] (-) TimerEvent: {}
+[13.996431] (-) TimerEvent: {}
+[14.097518] (-) TimerEvent: {}
+[14.197787] (-) TimerEvent: {}
+[14.298374] (-) TimerEvent: {}
+[14.399329] (-) TimerEvent: {}
+[14.499563] (-) TimerEvent: {}
+[14.600011] (-) TimerEvent: {}
+[14.701048] (-) TimerEvent: {}
+[14.801648] (-) TimerEvent: {}
+[14.902690] (-) TimerEvent: {}
+[15.003129] (-) TimerEvent: {}
+[15.103622] (-) TimerEvent: {}
+[15.204493] (-) TimerEvent: {}
+[15.304863] (-) TimerEvent: {}
+[15.405239] (-) TimerEvent: {}
+[15.506075] (-) TimerEvent: {}
+[15.606391] (-) TimerEvent: {}
+[15.706898] (-) TimerEvent: {}
+[15.807939] (-) TimerEvent: {}
+[15.908342] (-) TimerEvent: {}
+[16.008598] (-) TimerEvent: {}
+[16.109146] (-) TimerEvent: {}
+[16.209562] (-) TimerEvent: {}
+[16.309876] (-) TimerEvent: {}
+[16.410201] (-) TimerEvent: {}
+[16.510555] (-) TimerEvent: {}
+[16.611341] (-) TimerEvent: {}
+[16.713310] (-) TimerEvent: {}
+[16.813677] (-) TimerEvent: {}
+[16.913973] (-) TimerEvent: {}
+[17.015113] (-) TimerEvent: {}
+[17.117017] (-) TimerEvent: {}
+[17.217445] (-) TimerEvent: {}
+[17.318151] (-) TimerEvent: {}
+[17.418499] (-) TimerEvent: {}
+[17.518840] (-) TimerEvent: {}
+[17.619840] (-) TimerEvent: {}
+[17.721977] (-) TimerEvent: {}
+[17.823124] (-) TimerEvent: {}
+[17.923476] (-) TimerEvent: {}
+[18.024245] (-) TimerEvent: {}
+[18.126246] (-) TimerEvent: {}
+[18.226577] (-) TimerEvent: {}
+[18.326966] (-) TimerEvent: {}
+[18.427294] (-) TimerEvent: {}
+[18.527990] (-) TimerEvent: {}
+[18.629665] (-) TimerEvent: {}
+[18.729992] (-) TimerEvent: {}
+[18.830347] (-) TimerEvent: {}
+[18.931121] (-) TimerEvent: {}
+[19.033392] (-) TimerEvent: {}
+[19.133773] (-) TimerEvent: {}
+[19.234079] (-) TimerEvent: {}
+[19.334386] (-) TimerEvent: {}
+[19.434724] (-) TimerEvent: {}
+[19.535105] (-) TimerEvent: {}
+[19.636384] (-) TimerEvent: {}
+[19.738929] (-) TimerEvent: {}
+[19.839315] (-) TimerEvent: {}
+[19.940154] (-) TimerEvent: {}
+[20.042608] (-) TimerEvent: {}
+[20.143176] (-) TimerEvent: {}
+[20.243532] (-) TimerEvent: {}
+[20.343979] (-) TimerEvent: {}
+[20.444933] (-) TimerEvent: {}
+[20.546652] (-) TimerEvent: {}
+[20.646990] (-) TimerEvent: {}
+[20.747652] (-) TimerEvent: {}
+[20.848543] (-) TimerEvent: {}
+[20.948824] (-) TimerEvent: {}
+[21.049176] (-) TimerEvent: {}
+[21.149547] (-) TimerEvent: {}
+[21.249825] (-) TimerEvent: {}
+[21.350107] (-) TimerEvent: {}
+[21.450441] (-) TimerEvent: {}
+[21.550734] (-) TimerEvent: {}
+[21.651096] (-) TimerEvent: {}
+[21.751552] (-) TimerEvent: {}
+[21.852040] (-) TimerEvent: {}
+[21.952395] (-) TimerEvent: {}
+[22.052742] (-) TimerEvent: {}
+[22.153082] (-) TimerEvent: {}
+[22.253437] (-) TimerEvent: {}
+[22.353808] (-) TimerEvent: {}
+[22.454347] (-) TimerEvent: {}
+[22.555962] (-) TimerEvent: {}
+[22.656338] (-) TimerEvent: {}
+[22.756743] (-) TimerEvent: {}
+[22.857014] (-) TimerEvent: {}
+[22.918006] (my_scan_merger) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable scan_merger\x1b[0m\n'}
+[22.957130] (-) TimerEvent: {}
+[23.057411] (-) TimerEvent: {}
+[23.157680] (-) TimerEvent: {}
+[23.257975] (-) TimerEvent: {}
+[23.358440] (-) TimerEvent: {}
+[23.459019] (-) TimerEvent: {}
+[23.559369] (-) TimerEvent: {}
+[23.659746] (-) TimerEvent: {}
+[23.760095] (-) TimerEvent: {}
+[23.809680] (my_scan_merger) StdoutLine: {'line': b'[100%] Built target scan_merger\n'}
+[23.820829] (my_scan_merger) CommandEnded: {'returncode': 0}
+[23.822258] (my_scan_merger) JobProgress: {'identifier': 'my_scan_merger', 'progress': 'install'}
+[23.830615] (my_scan_merger) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rover/ros2_ws/build/my_scan_merger'], 'cwd': '/home/rover/ros2_ws/build/my_scan_merger', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'rover'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rover/uros_ws/install/micro_ros_agent/lib:/home/rover/uros_ws/install/micro_ros_msgs/lib:/home/rover/ros2_ws/install/realsense2_camera/lib:/home/rover/ros2_ws/install/realsense2_camera_msgs/lib:/home/rover/ros2_ws/install/nav2_amcl/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/mesa-diverted/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/mesa:/usr/lib/x86_64-linux-gnu/dri:/usr/lib/x86_64-linux-gnu/gallium-pipe'), ('HOME', '/home/rover'), ('OLDPWD', '/home/rover/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('PULSE_SINK', 'chrome_remote_desktop_session'), ('SYSTEMD_EXEC_PID', '4730'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rover/ros2_ws/install:/home/rover/uros_ws/install'), ('PULSE_STATE_PATH', '/run/user/1000/crd_audio#tALyeGQT6W'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rover'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rover-NUC14RVK-B:@/tmp/.ICE-unix/4168,unix/rover-NUC14RVK-B:/tmp/.ICE-unix/4168'), ('PULSE_RUNTIME_PATH', '/run/user/1000/crd_audio#tALyeGQT6W'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/407b50a5_2bfc_4526_9758_9ce78b96efb7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':20'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/home/rover/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AUTH_SOCK', '/tmp/chromoting.rover.ssh_auth_sock'), ('ROS_DOMAIN_ID', '20'), ('AMENT_PREFIX_PATH', '/home/rover/uros_ws/install/micro_ros_setup:/home/rover/uros_ws/install/micro_ros_agent:/home/rover/uros_ws/install/micro_ros_msgs:/home/rover/ros2_ws/install/ydlidar_ros2_driver:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/rf2o_laser_odometry:/home/rover/ros2_ws/install/realsense2_description:/home/rover/ros2_ws/install/realsense2_camera:/home/rover/ros2_ws/install/realsense2_camera_msgs:/home/rover/ros2_ws/install/nav2_amcl:/home/rover/ros2_ws/install/my_scan_merger:/home/rover/ros2_ws/install/megarover3:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_navigation:/home/rover/ros2_ws/install/megarover3_bringup:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/home/rover/ros2_ws/install/amr_log:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('PULSE_CONFIG_PATH', '/run/user/1000/crd_audio#tALyeGQT6W'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rover/ros2_ws/build/my_scan_merger'), ('CHROME_REMOTE_DESKTOP_SESSION', '1'), ('XDG_DATA_DIRS', '/usr/share/gnome:/home/rover/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rover/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/rover/ros2_ws/install/wall_ransac_initializer/lib/python3.10/site-packages:/home/rover/ros2_ws/install/udp_bridge/lib/python3.10/site-packages:/home/rover/ros2_ws/install/trajectory_logger/lib/python3.10/site-packages:/home/rover/ros2_ws/install/shelf_navigator/lib/python3.10/site-packages:/home/rover/ros2_ws/install/ros2_to_ros1_bridge/lib/python3.10/site-packages:/home/rover/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/rover/ros2_ws/install/js0_teleop/lib/python3.10/site-packages:/home/rover/ros2_ws/install/iai_cylinder/lib/python3.10/site-packages:/home/rover/ros2_ws/install/final_approach_controller/lib/python3.10/site-packages:/home/rover/ros2_ws/install/arrow_key_teleop/lib/python3.10/site-packages:/home/rover/ros2_ws/install/amr_log/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rover/uros_ws/install/micro_ros_setup:/home/rover/uros_ws/install/micro_ros_agent:/home/rover/uros_ws/install/micro_ros_msgs:/home/rover/ros2_ws/install/ydlidar_ros2_driver:/home/rover/ros2_ws/install/rf2o_laser_odometry:/home/rover/ros2_ws/install/realsense2_description:/home/rover/ros2_ws/install/realsense2_camera:/home/rover/ros2_ws/install/realsense2_camera_msgs:/home/rover/ros2_ws/install/nav2_amcl:/home/rover/ros2_ws/install/my_scan_merger:/home/rover/ros2_ws/install/megarover3:/home/rover/ros2_ws/install/megarover3_bringup:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_navigation:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/home/rover/ros2_ws/install/amr_log:/opt/ros/humble')]), 'shell': False}
+[23.838717] (my_scan_merger) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.839706] (my_scan_merger) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[23.840055] (my_scan_merger) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/lib/my_scan_merger/scan_merger\n'}
+[23.840185] (my_scan_merger) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/ament_index/resource_index/package_run_dependencies/my_scan_merger\n'}
+[23.840605] (my_scan_merger) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/ament_index/resource_index/parent_prefix_path/my_scan_merger\n'}
+[23.840767] (my_scan_merger) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/environment/ament_prefix_path.sh\n'}
+[23.840871] (my_scan_merger) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/environment/ament_prefix_path.dsv\n'}
+[23.841060] (my_scan_merger) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/environment/path.sh\n'}
+[23.841149] (my_scan_merger) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/environment/path.dsv\n'}
+[23.841297] (my_scan_merger) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/local_setup.bash\n'}
+[23.841440] (my_scan_merger) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/local_setup.sh\n'}
+[23.841633] (my_scan_merger) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/local_setup.zsh\n'}
+[23.841773] (my_scan_merger) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/local_setup.dsv\n'}
+[23.841858] (my_scan_merger) StdoutLine: {'line': b'-- Symlinking: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/package.dsv\n'}
+[23.850439] (my_scan_merger) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/ament_index/resource_index/packages/my_scan_merger\n'}
+[23.850636] (my_scan_merger) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/cmake/my_scan_mergerConfig.cmake\n'}
+[23.850725] (my_scan_merger) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/cmake/my_scan_mergerConfig-version.cmake\n'}
+[23.850814] (my_scan_merger) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rover/ros2_ws/install/my_scan_merger/share/my_scan_merger/package.xml\n'}
+[23.852440] (my_scan_merger) CommandEnded: {'returncode': 0}
+[23.860603] (-) TimerEvent: {}
+[23.868042] (my_scan_merger) JobEnded: {'identifier': 'my_scan_merger', 'rc': 0}
+[23.868658] (-) EventReactorShutdown: {}

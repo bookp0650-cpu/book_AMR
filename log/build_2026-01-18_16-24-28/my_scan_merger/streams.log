@@ -1,0 +1,17 @@
+[0.010s] Invoking command in '/home/rover/ros2_ws/build/my_scan_merger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_navigation:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/home/rover/ros2_ws/install/amr_log:/opt/ros/humble /usr/bin/cmake --build /home/rover/ros2_ws/build/my_scan_merger -- -j18 -l18
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target scan_merger[0m
+[0.062s] [ 50%] [32mBuilding CXX object CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o[0m
+[1.709s] [01m[K/home/rover/ros2_ws/src/my_scan_merger/src/scan_merger.cpp:[m[K In constructor ‘[01m[KScanMerger::ScanMerger()[m[K’:
+[1.709s] [01m[K/home/rover/ros2_ws/src/my_scan_merger/src/scan_merger.cpp:28:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kcorridor_width_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcorridor_status_[m[K’?
+[1.709s]    28 |         this->get_parameter("corridor_width", [01;31m[Kcorridor_width_[m[K);
+[1.709s]       |                                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.709s]       |                                               [32m[Kcorridor_status_[m[K
+[1.725s] [01m[K/home/rover/ros2_ws/src/my_scan_merger/src/scan_merger.cpp:[m[K In member function ‘[01m[Kvoid ScanMerger::merge_if_ready()[m[K’:
+[1.725s] [01m[K/home/rover/ros2_ws/src/my_scan_merger/src/scan_merger.cpp:154:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kcorridor_width_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcorridor_status_[m[K’?
+[1.725s]   154 |         const float W = [01;31m[Kcorridor_width_[m[K; // 通路幅 [m]
+[1.725s]       |                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.725s]       |                         [32m[Kcorridor_status_[m[K
+[4.879s] gmake[2]: *** [CMakeFiles/scan_merger.dir/build.make:76: CMakeFiles/scan_merger.dir/src/scan_merger.cpp.o] エラー 1
+[4.879s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/scan_merger.dir/all] エラー 2
+[4.880s] gmake: *** [Makefile:146: all] エラー 2
+[4.882s] Invoked command in '/home/rover/ros2_ws/build/my_scan_merger' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros2_ws/install/wall_ransac_initializer:/home/rover/ros2_ws/install/vs_rover_options_description:/home/rover/ros2_ws/install/udp_bridge:/home/rover/ros2_ws/install/trajectory_logger:/home/rover/ros2_ws/install/shelf_navigator:/home/rover/ros2_ws/install/ros2_to_ros1_bridge:/home/rover/ros2_ws/install/megarover_description:/home/rover/ros2_ws/install/megarover3_navigation:/home/rover/ros2_ws/install/js0_teleop:/home/rover/ros2_ws/install/iai_cylinder:/home/rover/ros2_ws/install/final_approach_controller:/home/rover/ros2_ws/install/arrow_key_teleop:/home/rover/ros2_ws/install/amr_log:/opt/ros/humble /usr/bin/cmake --build /home/rover/ros2_ws/build/my_scan_merger -- -j18 -l18

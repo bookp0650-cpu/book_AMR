@@ -1,0 +1,41 @@
+[2.217s] Invoking command in '/home/rover/ros2_ws/src/wall_ransac_initializer': PYTHONPATH=/home/rover/ros2_ws/build/wall_ransac_initializer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/ros2_ws/install/wall_ransac_initializer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wall_ransac_initializer build --build-base /home/rover/ros2_ws/build/wall_ransac_initializer/build install --record /home/rover/ros2_ws/build/wall_ransac_initializer/install.log --single-version-externally-managed install_data
+[2.608s] running egg_info
+[2.608s] creating ../../build/wall_ransac_initializer/wall_ransac_initializer.egg-info
+[2.608s] writing ../../build/wall_ransac_initializer/wall_ransac_initializer.egg-info/PKG-INFO
+[2.608s] writing dependency_links to ../../build/wall_ransac_initializer/wall_ransac_initializer.egg-info/dependency_links.txt
+[2.608s] writing entry points to ../../build/wall_ransac_initializer/wall_ransac_initializer.egg-info/entry_points.txt
+[2.609s] writing requirements to ../../build/wall_ransac_initializer/wall_ransac_initializer.egg-info/requires.txt
+[2.609s] writing top-level names to ../../build/wall_ransac_initializer/wall_ransac_initializer.egg-info/top_level.txt
+[2.609s] writing manifest file '../../build/wall_ransac_initializer/wall_ransac_initializer.egg-info/SOURCES.txt'
+[2.611s] reading manifest file '../../build/wall_ransac_initializer/wall_ransac_initializer.egg-info/SOURCES.txt'
+[2.611s] writing manifest file '../../build/wall_ransac_initializer/wall_ransac_initializer.egg-info/SOURCES.txt'
+[2.611s] running build
+[2.611s] running build_py
+[2.611s] creating /home/rover/ros2_ws/build/wall_ransac_initializer/build
+[2.611s] creating /home/rover/ros2_ws/build/wall_ransac_initializer/build/lib
+[2.611s] creating /home/rover/ros2_ws/build/wall_ransac_initializer/build/lib/wall_ransac_initializer
+[2.612s] copying wall_ransac_initializer/wall_ransac_initialpose.py -> /home/rover/ros2_ws/build/wall_ransac_initializer/build/lib/wall_ransac_initializer
+[2.612s] copying wall_ransac_initializer/map_error_y.py -> /home/rover/ros2_ws/build/wall_ransac_initializer/build/lib/wall_ransac_initializer
+[2.612s] copying wall_ransac_initializer/__init__.py -> /home/rover/ros2_ws/build/wall_ransac_initializer/build/lib/wall_ransac_initializer
+[2.612s] running install
+[2.612s] running install_lib
+[2.614s] creating /home/rover/ros2_ws/install/wall_ransac_initializer/lib/python3.10/site-packages/wall_ransac_initializer
+[2.614s] copying /home/rover/ros2_ws/build/wall_ransac_initializer/build/lib/wall_ransac_initializer/wall_ransac_initialpose.py -> /home/rover/ros2_ws/install/wall_ransac_initializer/lib/python3.10/site-packages/wall_ransac_initializer
+[2.614s] copying /home/rover/ros2_ws/build/wall_ransac_initializer/build/lib/wall_ransac_initializer/map_error_y.py -> /home/rover/ros2_ws/install/wall_ransac_initializer/lib/python3.10/site-packages/wall_ransac_initializer
+[2.614s] copying /home/rover/ros2_ws/build/wall_ransac_initializer/build/lib/wall_ransac_initializer/__init__.py -> /home/rover/ros2_ws/install/wall_ransac_initializer/lib/python3.10/site-packages/wall_ransac_initializer
+[2.616s] byte-compiling /home/rover/ros2_ws/install/wall_ransac_initializer/lib/python3.10/site-packages/wall_ransac_initializer/wall_ransac_initialpose.py to wall_ransac_initialpose.cpython-310.pyc
+[2.618s] byte-compiling /home/rover/ros2_ws/install/wall_ransac_initializer/lib/python3.10/site-packages/wall_ransac_initializer/map_error_y.py to map_error_y.cpython-310.pyc
+[2.620s] byte-compiling /home/rover/ros2_ws/install/wall_ransac_initializer/lib/python3.10/site-packages/wall_ransac_initializer/__init__.py to __init__.cpython-310.pyc
+[2.620s] running install_data
+[2.620s] creating /home/rover/ros2_ws/install/wall_ransac_initializer/share/ament_index
+[2.620s] creating /home/rover/ros2_ws/install/wall_ransac_initializer/share/ament_index/resource_index
+[2.620s] creating /home/rover/ros2_ws/install/wall_ransac_initializer/share/ament_index/resource_index/packages
+[2.620s] copying resource/wall_ransac_initializer -> /home/rover/ros2_ws/install/wall_ransac_initializer/share/ament_index/resource_index/packages
+[2.620s] copying package.xml -> /home/rover/ros2_ws/install/wall_ransac_initializer/share/wall_ransac_initializer
+[2.621s] running install_egg_info
+[2.626s] Copying ../../build/wall_ransac_initializer/wall_ransac_initializer.egg-info to /home/rover/ros2_ws/install/wall_ransac_initializer/lib/python3.10/site-packages/wall_ransac_initializer-0.0.0-py3.10.egg-info
+[2.626s] running install_scripts
+[2.660s] Installing map_error_y script to /home/rover/ros2_ws/install/wall_ransac_initializer/lib/wall_ransac_initializer
+[2.660s] Installing wall_ransac_initialpose script to /home/rover/ros2_ws/install/wall_ransac_initializer/lib/wall_ransac_initializer
+[2.660s] writing list of installed files to '/home/rover/ros2_ws/build/wall_ransac_initializer/install.log'
+[2.739s] Invoked command in '/home/rover/ros2_ws/src/wall_ransac_initializer' returned '0': PYTHONPATH=/home/rover/ros2_ws/build/wall_ransac_initializer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/ros2_ws/install/wall_ransac_initializer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wall_ransac_initializer build --build-base /home/rover/ros2_ws/build/wall_ransac_initializer/build install --record /home/rover/ros2_ws/build/wall_ransac_initializer/install.log --single-version-externally-managed install_data

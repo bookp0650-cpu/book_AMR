@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/amr_log/amr_log.egg-info/PKG-INFO
+writing dependency_links to ../../build/amr_log/amr_log.egg-info/dependency_links.txt
+writing entry points to ../../build/amr_log/amr_log.egg-info/entry_points.txt
+writing requirements to ../../build/amr_log/amr_log.egg-info/requires.txt
+writing top-level names to ../../build/amr_log/amr_log.egg-info/top_level.txt
+reading manifest file '../../build/amr_log/amr_log.egg-info/SOURCES.txt'
+writing manifest file '../../build/amr_log/amr_log.egg-info/SOURCES.txt'
+running build
+running build_py
+copying amr_log/amr_log.py -> /home/rover/ros2_ws/build/amr_log/build/lib/amr_log
+running install
+running install_lib
+copying /home/rover/ros2_ws/build/amr_log/build/lib/amr_log/amr_log.py -> /home/rover/ros2_ws/install/amr_log/lib/python3.10/site-packages/amr_log
+byte-compiling /home/rover/ros2_ws/install/amr_log/lib/python3.10/site-packages/amr_log/amr_log.py to amr_log.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/rover/ros2_ws/install/amr_log/lib/python3.10/site-packages/amr_log-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/amr_log/amr_log.egg-info to /home/rover/ros2_ws/install/amr_log/lib/python3.10/site-packages/amr_log-0.0.0-py3.10.egg-info
+running install_scripts
+Installing amr_log script to /home/rover/ros2_ws/install/amr_log/lib/amr_log
+writing list of installed files to '/home/rover/ros2_ws/build/amr_log/install.log'

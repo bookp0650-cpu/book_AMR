@@ -1,0 +1,4 @@
+[console_scripts]
+final_approach_node = final_approach_controller.final_approach_node:main
+final_approach_node2 = final_approach_controller.final_approach_node2:main
+

@@ -1,0 +1,46 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rover/ros2_ws/build/vs_rover_options_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/meshes/bumper/f120a_bumper_link.stl
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/meshes/bumper/f120a_bumper_plate.stl
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/meshes/bumper/mega3_bumper_link.stl
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/meshes/bumper/mega3_bumper_plate.stl
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/meshes/cam_stay/cam_mount_frame.stl
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/meshes/cam_stay/cam_mount_link.stl
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/meshes/depth_cam/d435.dae
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/meshes/lrf/tg30.stl
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/urdf/bumper/bumper_f120a.xacro
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/urdf/bumper/bumper_mega3.xacro
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/urdf/cam_stay/cam_stay_f120a.xacro
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/urdf/cam_stay/cam_stay_mecanum3.xacro
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/urdf/cam_stay/cam_stay_mega3.xacro
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/urdf/depth_cam/_d435.gazebo.xacro
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/urdf/depth_cam/_d435.urdf.xacro
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/urdf/depth_cam/_d435i.urdf.xacro
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/urdf/depth_cam/_d435i_imu_modules.urdf.xacro
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/urdf/lrf/tg30_f120a.gazebo
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/urdf/lrf/tg30_f120a.xacro
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/urdf/lrf/tg30_mecanum3.gazebo
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/urdf/lrf/tg30_mecanum3.xacro
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/urdf/lrf/tg30_mega3.gazebo
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/urdf/lrf/tg30_mega3.xacro
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/ament_index/resource_index/package_run_dependencies/vs_rover_options_description
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/ament_index/resource_index/parent_prefix_path/vs_rover_options_description
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/environment/path.sh
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/environment/path.dsv
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/local_setup.bash
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/local_setup.sh
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/local_setup.zsh
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/local_setup.dsv
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/package.dsv
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/ament_index/resource_index/packages/vs_rover_options_description
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/cmake/vs_rover_options_descriptionConfig.cmake
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/cmake/vs_rover_options_descriptionConfig-version.cmake
+-- Symlinking: /home/rover/ros2_ws/install/vs_rover_options_description/share/vs_rover_options_description/package.xml

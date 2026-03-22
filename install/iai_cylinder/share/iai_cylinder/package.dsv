@@ -1,0 +1,6 @@
+source;share/iai_cylinder/hook/pythonpath.ps1
+source;share/iai_cylinder/hook/pythonpath.dsv
+source;share/iai_cylinder/hook/pythonpath.sh
+source;share/iai_cylinder/hook/ament_prefix_path.ps1
+source;share/iai_cylinder/hook/ament_prefix_path.dsv
+source;share/iai_cylinder/hook/ament_prefix_path.sh
