@@ -18,9 +18,10 @@ __pycache__/
 # Large files
 *.deb
 *.bag
-*.deb
+*.deb*
 # 不要ファイル
 *.gv
 *.pdf
 ttyUSB*
 .vscode/
+*.rviz
