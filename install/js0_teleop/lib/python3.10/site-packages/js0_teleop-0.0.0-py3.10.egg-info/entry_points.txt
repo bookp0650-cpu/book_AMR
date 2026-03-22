@@ -1,3 +1,0 @@
-[console_scripts]
-js0_teleop = js0_teleop.js0_teleop_safe:main
-

@@ -1,5 +1,0 @@
-[console_scripts]
-map_error_x = wall_ransac_initializer.map_error_x:main
-map_error_y = wall_ransac_initializer.map_error_y:main
-wall_ransac_initialpose = wall_ransac_initializer.wall_ransac_initialpose:main
-

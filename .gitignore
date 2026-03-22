@@ -1,1 +1,20 @@
+# ROS
+build/
+install/
+log/
+
+# External packages（超重要）
+src/navigation2/
+src/realsense-ros/
+src/ydlidar_ros2_driver/
+src/rf2o_laser_odometry/
+src/vs_rover_options_description/
+src/megarover3_ros2/
+
+# Python
+__pycache__/
+*.pyc
+
+# Large files
 *.deb
+*.bag

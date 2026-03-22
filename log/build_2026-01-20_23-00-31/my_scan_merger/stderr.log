@@ -1,7 +1,0 @@
-[01m[K/home/rover/ros2_ws/src/my_scan_merger/src/scan_merger.cpp:[m[K In member function ‘[01m[Kvoid ScanMerger::self_scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
-[01m[K/home/rover/ros2_ws/src/my_scan_merger/src/scan_merger.cpp:118:18:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(((double)base) + (3.1415926535897931e+0 / ((double)2.0e+0f)))[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
-  118 |             [01;35m[Kbase + M_PI / 2.0f[m[K,        // 壁に対して横（90°）
-      |             [01;35m[K~~~~~^~~~~~~~~~~~~[m[K
-[01m[K/home/rover/ros2_ws/src/my_scan_merger/src/scan_merger.cpp:119:18:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(((double)base) + ((((double)3.0e+0f) * 3.1415926535897931e+0) / ((double)4.0e+0f)))[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
-  119 |             [01;35m[Kbase + 3.0f * M_PI / 4.0f[m[K  // 壁に対して斜め（135°）
-      |             [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~[m[K

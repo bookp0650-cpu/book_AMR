@@ -1,1 +1,0 @@
-/home/rover/ros2_ws/build/megarover3_bringup/ament_cmake_core/megarover3_bringupConfig-version.cmake

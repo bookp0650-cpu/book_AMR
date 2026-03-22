@@ -1,6 +1,0 @@
---2025-11-27 18:31:34--  https://code.visualstudio.com/sha/download?build=stable
-code.visualstudio.com (code.visualstudio.com) をDNSに問いあわせています... 13.107.213.46, 13.107.246.46, 2620:1ec:bdf::46, ...
-code.visualstudio.com (code.visualstudio.com)|13.107.213.46|:443 に接続しています... 接続しました。
-HTTP による接続要求を送信しました、応答を待っています... 404 Not Found
-2025-11-27 18:31:34 エラー 404: Not Found。
-

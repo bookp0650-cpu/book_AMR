@@ -1,9 +1,0 @@
-/home/rover/ros2_ws/build/megarover3_navigation/CMakeFiles/uninstall.dir
-/home/rover/ros2_ws/build/megarover3_navigation/CMakeFiles/megarover3_navigation_uninstall.dir
-/home/rover/ros2_ws/build/megarover3_navigation/CMakeFiles/test.dir
-/home/rover/ros2_ws/build/megarover3_navigation/CMakeFiles/edit_cache.dir
-/home/rover/ros2_ws/build/megarover3_navigation/CMakeFiles/rebuild_cache.dir
-/home/rover/ros2_ws/build/megarover3_navigation/CMakeFiles/list_install_components.dir
-/home/rover/ros2_ws/build/megarover3_navigation/CMakeFiles/install.dir
-/home/rover/ros2_ws/build/megarover3_navigation/CMakeFiles/install/local.dir
-/home/rover/ros2_ws/build/megarover3_navigation/CMakeFiles/install/strip.dir

@@ -1,1 +1,0 @@
-/home/rover/ros2_ws/src/megarover3_ros2/megarover_description/launch/f120a_view.launch.py

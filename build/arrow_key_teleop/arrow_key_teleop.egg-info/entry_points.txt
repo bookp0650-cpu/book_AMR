@@ -1,3 +1,0 @@
-[console_scripts]
-teleop_arrow_key = arrow_key_teleop.teleop_arrow_key:main
-

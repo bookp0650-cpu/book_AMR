@@ -1,3 +1,0 @@
-[console_scripts]
-height_controller = iai_cylinder.height_controller:main
-

@@ -1,1 +1,0 @@
-/home/rover/ros2_ws/src/megarover3_ros2/megarover3_navigation/launch/slam_sync.launch.py

@@ -1,3 +1,0 @@
-[console_scripts]
-trajectory_logger = trajectory_logger.trajectory_logger:main
-

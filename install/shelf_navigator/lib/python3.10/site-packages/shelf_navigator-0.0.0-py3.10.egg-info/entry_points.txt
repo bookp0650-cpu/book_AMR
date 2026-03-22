@@ -1,4 +1,0 @@
-[console_scripts]
-shelf_id_logic = shelf_navigator.nodes.shelf_id_logic:main
-shelf_id_logic2 = shelf_navigator.nodes.shelf_id_logic2:main
-

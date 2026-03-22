@@ -1,9 +1,0 @@
-[console_scripts]
-cmd_vel_receiver = udp_bridge.cmd_vel_receiver:main
-error_x_receiver = udp_bridge.error_x_receiver:main
-navigation_goal_final_sender = udp_bridge.navigation_goal_final_sender:main
-navigation_goal_sender = udp_bridge.navigation_goal_sender:main
-shelf_id_receiver = udp_bridge.shelf_id_receiver:main
-wall_distance_sender = udp_bridge.wall_distance_sender:main
-wall_yaw_deg_sender = udp_bridge.wall_yaw_deg_sender:main
-
